@@ -29,7 +29,7 @@ sidebar:
     icon: <i class="fa-solid fa-pen"></i>
     link: https://www.bodunhu.com/blog/
   - name: ORCID
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z" fill="currentColor"/></g></svg>
+    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none"><path d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3zm0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5zm-5 3a1 1 0 0 0 0 2a1 1 0 0 0 0-2zm-1 3v11h2V11h-2zm4 0v11h4.5c3.026 0 5.5-2.474 5.5-5.5S21.526 11 18.5 11H14zm2 2h2.5c1.944 0 3.5 1.556 3.5 3.5S20.444 20 18.5 20H16v-7z" fill="currentColor"/></g></svg>
     link: https://orcid.org/0000-0003-4621-5288
 
 gems:
