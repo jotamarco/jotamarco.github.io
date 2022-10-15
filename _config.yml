@@ -28,9 +28,11 @@ sidebar:
   - name: Blog
     icon: <i class="fa-solid fa-pen"></i>
     link: https://www.bodunhu.com/blog/
-  - name: Project Repository
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="currentColor"><path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/></g></svg>
-    link: https://github.com/BDHU/minimalist
+  - name: ORCID
+    icon: <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><g transform="translate(0 32) scale(1 -1)"><path 
+fill="currentColor" d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3zm0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5zm-5 3a1 1 0 0 0 0 
+2a1 1 0 0 0 0-2zm-1 3v11h2V11h-2zm4 0v11h4.5c3.026 0 5.5-2.474 5.5-5.5S21.526 11 18.5 11H14zm2 2h2.5c1.944 0 3.5 1.556 3.5 3.5S20.444 20 18.5 20H16v-7z"/></g></svg>
+    link: https://orcid.org/0000-0003-4621-5288
 
 gems:
   - jekyll-remote-theme
