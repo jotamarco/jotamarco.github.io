@@ -1,7 +1,10 @@
 title: João Marco Silva
 logo: /assets/img/eu_circular.png
 email: joao.marco@inesctec.pt
-description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
+description: Senior Researcher at INESC TEC. 
+             Research interests:
+             Computer Networks
+             Information Secutity
 show_downloads: false
 google_analytics: UA-108144808-1
 color-scheme: auto
@@ -15,7 +18,7 @@ plugins:
 sidebar:
   - name: Google Scholar
     icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5L12 0l12 9.5l-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14a7 7 0 0 0 0-14z" fill="currentColor"/></svg>
-    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+    link: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/BDHU
