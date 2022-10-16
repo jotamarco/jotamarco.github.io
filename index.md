@@ -5,7 +5,8 @@ layout: default
 ## Current positions
 
 #### Senior researcher
-INESC TEC - Institute for Systems and Computer Engineering, Technology and Science
+<p style="line-height: 1.1;">INESC TEC - Institute for Systems and Computer Engineering, Technology 
+and Science</p>
 
 #### Invited lecturer
 Universidade do Minho
