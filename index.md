@@ -5,14 +5,14 @@ layout: default
 ## Current positions
 
 #### Senior researcher
->> <p style="line-height: 0.0;">INESC TEC - Institute for Systems and Computer Engineering, Technology 
+> <p style="line-height: 0.0;">INESC TEC - Institute for Systems and Computer Engineering, Technology 
 and Science</p>
 
 #### Invited lecturer
->> <p style="line-height: 0.0;">Universidade do Minho</p>
+> <p style="line-height: 0.0;">Universidade do Minho</p>
 
 #### Visiting fellow
->> <p style="line-height: 1.0;">UNU-EGOV - United Nations University - Operating Unit on Policy-Driven 
+> <p style="line-height: 1.0;">UNU-EGOV - United Nations University - Operating Unit on Policy-Driven 
 Electronic Governance</p>
 
 
