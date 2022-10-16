@@ -9,7 +9,15 @@ layout: default
 and Science</p>
 
 #### Invited lecturer
-Universidade do Minho
+<p style="line-height: 0.0;">Universidade do Minho</p>
 
 #### Visiting fellow
-UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance
+<p style="line-height: 0.0;">UNU-EGOV - United Nations University - Operating Unit on Policy-Driven 
+Electronic Governance</p>
+
+
+## Ongoing projects
+
+#### IDINA
+
+#### FLEXCOMM
