@@ -5,7 +5,7 @@ layout: default
 ## Current positions
 
 #### Senior researcher
-<p style="line-height: 1.1;">INESC TEC - Institute for Systems and Computer Engineering, Technology 
+<p style="line-height: 0.5;">INESC TEC - Institute for Systems and Computer Engineering, Technology 
 and Science</p>
 
 #### Invited lecturer
