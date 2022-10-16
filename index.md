@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Current positions
+## Current positions
 
 #### Senior researcher
 INESC TEC - Institute for Systems and Computer Engineering, Technology and Science
