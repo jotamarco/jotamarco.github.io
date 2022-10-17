@@ -18,6 +18,7 @@ Electronic Governance</p>
 
 ## Ongoing projects
 
-#### IDINA
+#### IDINA - Inclusive Non-Authoritative Digital Identity
 
-#### FLEXCOMM
+#### FLEXCOMM - Towards Energy-aware Communications: Connecting the power grid and communication infrastructure
+> FCT project reference: EXPL/CCI-INF/1543/2021
