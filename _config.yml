@@ -36,10 +36,10 @@ sidebar:
     link: https://idina.network
 
   - name: Publications
-    link: 
+    link: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
   
   -name: Talks
-    link: 
+    link: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
 
 gems:
   - jekyll-remote-theme
