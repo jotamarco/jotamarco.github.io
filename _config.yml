@@ -33,8 +33,10 @@ sidebar:
     link: https://orcid.org/0000-0003-4621-5288
 
 - name: ----------------
+  link:
 
 - name: Projects
+  link: 
 
 gems:
   - jekyll-remote-theme
