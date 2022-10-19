@@ -35,6 +35,12 @@ sidebar:
   - name: Projects
     link: https://idina.network
 
+  - name: Publications
+    link: 
+  
+  -name: Talks
+    link: 
+
 gems:
   - jekyll-remote-theme
 
