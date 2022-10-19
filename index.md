@@ -2,19 +2,18 @@
 layout: default
 ---
 
-## Current positions
+## **Current positions**
 
 ### Senior researcher
-- ##### INESC TEC - Institute for Systems and Computer Engineering, Technology and Science
+- <p style="line-height: 1.0;">INESC TEC - Institute for Systems and Computer Engineering, Technology and Science</p>
 
 ### Invited lecturer
-- ##### Universidade do Minho
+- <p style="line-height: 1.0;">Universidade do Minho</p>
 
 ### Visiting fellow
-- ##### UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance
+- <p style="line-height: 1.0;">UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance</p>
 
-
-## Ongoing projects
+## **Ongoing projects**
 
 ### IDINA - Inclusive Non-Authoritative Digital Identity
 - ##### See details [here](https://idina.network/) 
