@@ -38,8 +38,8 @@ sidebar:
   - name: Publications
     link: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
   
-  -name: Talks
-    link: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
+  - name: Talks
+    link:
 
 gems:
   - jekyll-remote-theme
