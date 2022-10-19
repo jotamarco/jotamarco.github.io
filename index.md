@@ -2,12 +2,12 @@
 layout: default
 ---
 
-# **Current positions**
+# Current positions
 
-## **Senior researcher**
+### **Senior researcher**
 <p style="line-height: 1.0;">INESC TEC - Institute for Systems and Computer Engineering, Technology and Science</p>
 
-## **Invited lecturer**
+### **Invited lecturer**
 <p style="line-height: 1.0;">Universidade do Minho</p>
 
 ### **Visiting fellow**
