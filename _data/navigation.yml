@@ -8,7 +8,7 @@ main:
     url: /cv/
 
   - title: "Publications"
-    url: /Sections/pub.md
+    url: /publications/
 
   - title: "Projects"
     url: /year-archive/
