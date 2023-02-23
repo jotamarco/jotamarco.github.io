@@ -5,18 +5,22 @@ permalink: /publications/
 author_profile: true
 ---
 
+**2023**
+
+J. Mendes, S. Lima, P. Carvalho, and JMC Silva, 'Impact of traffic sampling on LRD estimation', *Accepted* for The 11st World Conference on Information Systems and Technologies (WorldCist'), 2023. 
+
 **2022**
 
-J. P. Meira, R. P. C. Monteiro, and J. M. C. Silva, ‘Securing MPTCP Connections: A Solution for Distributed NIDS Environments’, in 2022 IEEE 47th Conference on Local Computer Networks (LCN), 2022.
+J. P. Meira, R. P. C. Monteiro, and J. M. C. Silva, ‘Securing MPTCP Connections: A Solution for Distributed NIDS Environments’, in IEEE 47th Conference on Local Computer Networks (LCN), 2022.
 
 
 **2021**
 
-J. M. Silva, V. Fonte, and A. Sousa, ‘Towards a bottom-up approach to inclusive digital identity systems’, in Proceedings of the 14th International Conference on Theory and Practice of Electronic Governance (ICEGOV), 2021.
+J. M. Silva, V. Fonte, and A. Sousa, ‘Towards a bottom-up approach to inclusive digital identity systems’, in The 14th International Conference on Theory and Practice of Electronic Governance (ICEGOV), 2021.
 
-C. Novo, J. M. C. Silva, and R. Morla, ‘An outlook on using packet sampling in flow-based C2 TLS malware traffic detection’, in 2021 12th International Conference on Network of the Future (NoF), 2021.
+C. Novo, J. M. C. Silva, and R. Morla, ‘An outlook on using packet sampling in flow-based C2 TLS malware traffic detection’, in The 12th International Conference on Network of the Future (NoF), 2021.
 
-B. S. Machado, J. M. C. Silva, S. R. Lima, and P. Carvalho, ‘Balancing the Detection of Malicious Traffic in SDN Context’, in 2021 Twelfth International Conference on Ubiquitous and Future Networks (ICUFN), 2021.
+B. S. Machado, J. M. C. Silva, S. R. Lima, and P. Carvalho, ‘Balancing the Detection of Malicious Traffic in SDN Context’, in The Twelfth International Conference on Ubiquitous and Future Networks (ICUFN), 2021.
 
 **2020**
 
