@@ -10,12 +10,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-        
   - title: "Projects"
     url: /year-archive/
+
+  - title: "Talks"
+    url: /talks/    
 
   - title: "Service"
     url: /portfolio/
