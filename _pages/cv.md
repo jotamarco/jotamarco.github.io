@@ -43,3 +43,14 @@ redirect_from:
 - (2021) Roberto Cachada. *Software-Defined Network security using Intrusion Detection Systems.* Co-advised with Solange Rito Lima.
 - (2020) Paulo Guedes. *AntiEgo: Nash Equilibrium Protocol for Ad Hoc Networks with Rational Behaviours.* Co-advised with Ali Shoker.
 - (2019) Bruno Ferreira. *Energy-aware Gossip Protocol for Wireless Sensor Networks.*
+- (2019) Luis Ramos. *The Use of Distributed Registration Tech- nologies (DLT) as a Tool for Copyright Protection.* Co-advised with Luis Gonçalves.
+- (2018) Bruno Machado. *Distributed Intrusion Detection in SDN.* Co-advised with Paulo Carvalho. 
+- (2018) Pedro Vicente. *IoT Architectures and Protocols.*
+- (2016) João Cunha. *Scalable classification and monitoring of video streaming services.* Co-advised with Solange Rito Lima.
+- (2016) David Teixeira. *Improving network measurements flexibility through SDN.* Co-advised with Solange Rito Lima.
+- (2015) Henrique Silva. *A distributed management interface for the MORE tool.* Co-advised with Solange Rito Lima.
+
+**BSc**
+
+- (2017) Matheus Rezende. *An architecture for self-configuring IoT systems.* Co-advised with Kalil Bispo. 
+- (2017) Matheus Menezes. *A systematic review on communication and data security for the Internet of Things.* Co-advised with Kalil Bispo. 
