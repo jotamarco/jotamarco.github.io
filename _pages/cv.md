@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Supervision"
+title: "PhD and MSc Supervisions"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-# Ongoing
+## Ongoing
 
 **PhD**
 
