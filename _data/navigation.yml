@@ -11,7 +11,7 @@ main:
     url: /publications/
 
   - title: "Projects"
-    url: /year-archive/
+    url: /projetos/
 
   - title: "Talks"
     url: /talks/    
