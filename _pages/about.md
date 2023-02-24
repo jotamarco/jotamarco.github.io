@@ -8,4 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-Work in progress. 
+
+## Current positions
+- Senior Researcher at INESC TEC - Institute for Systems and Computer Engineering, Technology and Science. ([See more](https://www.inesctec.pt/en/people/joao-marco))
+- Invited Assistant Professor at University of Minho. ([See more](https://www4.di.uminho.pt/~jno/sitedi/nm_6687.html))
+- Visinting Fellow at UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance. ([See more](https://egov.unu.edu/experts/joao-marco-silva.html#profile))
+
+
+## Education
+- PhD in Informatics - *University of Minho, Portugal*
+- MSc in Networks and Communication Services - *University of Minho, Portugal*
+- BSc in Computer Science - *University Federal of Sergipe, Brazil*
+
+
+## Research interests
+- Network Security
+- Energy-Efficient Communications
+- Non-authoritative Identification Systems

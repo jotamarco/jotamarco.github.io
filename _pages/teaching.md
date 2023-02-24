@@ -8,7 +8,7 @@ author_profile: true
 ## Current
 
 **Programme:** MSc in Informatics Engineering
-- [Security Technology](https://www4.di.uminho.pt/~jno/sitedi/uc_ME78ME7800006556.html)
+- [Security Technologies](https://www4.di.uminho.pt/~jno/sitedi/uc_ME78ME7800006556.html)
 
 **Programme:** BSc in Informatics Engineering
 - [Security of Information Systems](https://www4.di.uminho.pt/~jno/sitedi/uc_J306N3.html)
@@ -18,7 +18,7 @@ author_profile: true
 ## Previous
 
 **Programme:** Integrated MSc in Informatics Engineering
-- (2017-2021) Security Technology
+- (2017-2021) Security Technologies
 - (2017-2021) Security of Information Systems
 - (2018-2021) Operating Systems
 - (2015-2018) Computer Networks
