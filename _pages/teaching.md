@@ -5,4 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Work in progress.
+
+**Programme:** Integrated Master’s in Informatics Engineering
+
+- 2017-Present: Security Technology
+- 2017-Present: Security of Information Systems
