@@ -103,3 +103,39 @@ author_profile: true
 
 <p style="text-align: center;">...</p>
 
+### Network Traffic Measurement Using Sampling Techniques
+- **Funding:** POSGRAP/CINTTEC/UFS
+    - Coordination: Universidade Federal de Sergipe - Brasil
+    - Operation Code: PIBIT 2016/2017 PVB4239-2016
+- **Role:** External researcher
+- **Summary:** A project that used the traffic sampling framework developed in my PhD to evaluate the comparative impact of different sampling schemes on computer network monitoring tasks.
+- Concluded in 2017
+
+<p style="text-align: center;">...</p>
+
+### Network Traffic Monitoring and Analysis using Adaptive Messurement Techniques
+- **Funding:** POSGRAP/COPES/UFS
+    - Coordination: Universidade Federal de Sergipe - Brasil
+    - Operation Code: PIBIC 2014/2015 PVB2811-2014
+- **Role:** External researcher
+- **Summary:** A project that evaluated the traffic sampling technique developed in my master’s research in the context of measuring the Quality of Service (QoS) of different applications.
+- Concluded in 2015
+
+<p style="text-align: center;">...</p>
+
+### Modeling and Performance Evaluation of Voice and Video Services in IP Networks
+- **Funding:** UFS, PIBIC - CNPq
+    - Coordination: Universidade Federal de Sergipe - Brasil
+- **Role:** Scientific initiation researcher
+- **Summary:** Project that explored techniques for estimating and modelling the Quality of Service (QoS) of voice and video applications. In this context, it was developed a parser from OMG SysML models to Petri Net, through which a VoIP service was deployed resorting to queuing theory.
+- Concluded in 2008
+
+<p style="text-align: center;">...</p>
+
+### Traffic Modeling in Computer Networking
+- **Funding:** Conselho Nacional de Desenvolvimento Científico e Tecnológico
+    - Coordination: Universidade Federal de Sergipe - Brasil
+- **Role:** Researcher with a scientific initiation grant
+- **Summary:** A project that explored different techniques for Hurst parameter estimation as a mechanism of ethernet traffic characterisation.
+- Concluded in 2007
+
