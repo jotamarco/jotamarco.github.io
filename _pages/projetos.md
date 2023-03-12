@@ -11,7 +11,7 @@ author_profile: true
 ## Ongoing
 
 ### IDINA - Inclusive Non-Authoritative Digital Identity  
-- **Funding:** IN3+ Innovation Award ![](/images/idi.png)
+- **Funding:** IN3+ Innovation Award ![](/images/idi.png|300)
 - **Role:** Coordinator
 - **Summary**
     The main objective of this project is to create a non-authoritative digital identity system in order to reach populations of countries where more than 1 billion people do not possess a legal identity document. The main scientific challenges are related to information security and privacy of sensitive data.
