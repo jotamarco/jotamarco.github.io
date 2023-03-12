@@ -7,7 +7,7 @@ author_profile: true
 
 **2023**
 
-J. Mendes, S. Lima, P. Carvalho, and JMC Silva, 'Impact of traffic sampling on LRD estimation', *Accepted* for The 11st World Conference on Information Systems and Technologies (WorldCist), 2023. 
+J. Mendes, S. Lima, P. Carvalho, and JMC Silva, '**Impact of traffic sampling on LRD estimation**', *Accepted* for The 11st World Conference on Information Systems and Technologies (WorldCist), 2023. 
 
 **2022**
 
