@@ -48,6 +48,13 @@ author_profile: true
 - **Role:** Researcher
 - **Decription:** Within the work package 13.1, I will lead the definition of an IoT security baseline providing guidelines for OT device deployment and operation.
 
+<p style="text-align: center;">...</p>
+
+### Privacy Shield - Data Privacy for Medical Records Interoperable Systems
+- **Funding:** CNPq - National Council for Scientific and Technological Development, Brazil
+    - Coordination: University Federal of Santa Maria
+- **Role:** External researcher
+- **Description:** Project developing mechanisms for information security and data privacy in interoper- able medical record systems.
 
 ## Previous
 
@@ -65,3 +72,34 @@ author_profile: true
 - **Description:** The national consortium responsible for defining strategies and technical requirements for the next-generation Portuguese digital mobile identity system.
     - Consortium entities: Universidade do Minho, Universidade do Porto, Universidade de Aveiro, Instituto Superior Técnico, INESC TEC, INOV, INESC-ID, and INESC
 - Concluded in 2021
+
+<p style="text-align: center;">...</p>
+
+### LightKone - Lightweight Computation for Networks at the Edge
+- **Funding:** European Commission Horizon 2020 (EC H2020)
+    - Operation Code: 732505
+- **Role:** Researcher
+- **Summary:** The EU project LightKone developed validated models for doing general-purpose computation on edge networks by combining two recent advances in distributed computing, namely synchronisation-free programming and hybrid gossip algorithms, both of which are successfully used separately in industry.
+- **Website:** [lightkone.eu](https://www.lightkone.eu/)
+- Concluded in 2019
+
+<p style="text-align: center;">...</p>
+
+### DSGRID - Digital Systems Technology for Next Generation Grid Automation
+- **Funding:** Portugal 2020 (PT2020)
+    - Operation Code: POCI-01-0247-FEDER-011122 subcontract
+- **Role:** Researcher
+- **Summary:** A multidisciplinary project that brought together areas of knowledge of (i) power, (ii) automation and protection, (iii) communications, (iv) real-time systems, (v) embedded systems, (vi) cybersecurity and (vii) information and software technologies contributed by the four participating entities.
+- Concluded in 2018
+
+<p style="text-align: center;">...</p>
+
+### PASP PALOP-TL - Support to Improvement in Quality and Proximity of Public Services of PALOP and East-Timor
+- **Funding:** European Commission
+    - CRIS number: 2009/21732 subcontract
+- **Role:** Post-Doc Researcher
+- **Summary:** Project to support the improvement of public services provided by Portuguese-speaking African Countries and East-Timor (PALOP-TL) through EGOV solutions. The approach was to lay the foundations for services digitalisation, based on open frameworks for e-governance and training of national experts, to simplify administrative practices and services for citizens.
+- Concluded in 2018
+
+<p style="text-align: center;">...</p>
+
