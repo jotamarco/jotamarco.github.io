@@ -52,3 +52,16 @@ author_profile: true
 ## Previous
 
 ### IDMobile - Digital Mobile Identification
+- **Funding:** R&D project commissioned by INCM - Imprensa Nacional-Casa da Moeda
+- **Role:** Researcher
+- **Descriptiom:** This project was responsible for the development of proofs of concept and the functional prototypes of what will be the Portuguese mobile driving licence.
+- Concluded in 2021
+
+<p style="text-align: center;">...</p>
+
+### IDigital
+- **Funding:** R&D project commissioned by INCM - Imprensa Nacional-Casa da Moeda
+- **Role:** Researcher
+- **Description:** The national consortium responsible for defining strategies and technical requirements for the next-generation Portuguese digital mobile identity system.
+    - Consortium entities: Universidade do Minho, Universidade do Porto, Universidade de Aveiro, Instituto Superior Técnico, INESC TEC, INOV, INESC-ID, and INESC
+- Concluded in 2021
