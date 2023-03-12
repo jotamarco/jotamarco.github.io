@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ![](/images/publication_logo.png) "Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
