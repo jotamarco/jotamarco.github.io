@@ -10,7 +10,8 @@ author_profile: true
 
 ## Ongoing
 
-### IDINA - Inclusive Non-Authoritative Digital Identity  <img src="/images/idi.png" width="300">
+### IDINA - Inclusive Non-Authoritative Digital Identity  
+<img src="/images/idi.png" width="300">
 - **Funding:** IN3+ Innovation Award 
 - **Role:** Coordinator
 - **Summary**
