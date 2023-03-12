@@ -10,7 +10,7 @@ author_profile: true
 
 ## Ongoing
 
-### IDINA - Inclusive Non-Authoritative Digital Identity  
+![](/images/calendar24.png) ### IDINA - Inclusive Non-Authoritative Digital Identity  
 <img src="/images/idi.png" width="300">
 - **Funding:** IN3+ Innovation Award 
 - **Role:** Coordinator
@@ -20,7 +20,7 @@ author_profile: true
 
 
 ### FLEXCOMM - Towards Energy-aware Communications: Connecting the power grid and communication infrastructure
-- **Funding:** FCT - Fundação para a Ciência e a Tecnologia (project re)
+- **Funding:** FCT - Fundação para a Ciência e a Tecnologia
     - Project reference: EXPL/CCI-INF/1543/2021
 - **Role:** Coordinator
 - **Summary:** This project aims at designing and developing technologies to enable interoperability between communication networks and power distribution systems. Based on this integration, routing protocols capable of adapting data transmission to the energy flexibility and source will be designed and assessed. The rationale is to give priority to network sections powered by renewable energy as a green network strategy.
