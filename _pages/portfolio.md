@@ -67,6 +67,10 @@ author_profile: true
     - ISSN: 21613915, 21615748
 
 ### TPC member in peer review conferences
+
+**2023**
+- HPSR: The 24th International Conference on High-Performance Switching and Routing
+
 **2022**
 - HPSR: The 23th International Conference on High-Performance Switching and Routing
 - TMA: Network Traffic Measurement and Analysis Conference
