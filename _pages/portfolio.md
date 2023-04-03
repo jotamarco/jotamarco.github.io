@@ -6,6 +6,12 @@ author_profile: true
 ---
 
 ## Participation in juries for academic degrees
+
+**2022**
+- *Title:* Análise de Desempenho do Mobile Blockchain em Arquitetura de Computação de Borda Móvel
+    - *Candidate:* Thiago José Sandes Melo
+    - *Programme:* Master’s in Computer Science - University Federal of Sergipe
+
 **2021**
 - *Title:* Security in Software-Defined Networks based on OpenFlow
     - *Candidate:* Rafael Ângelo de Souza Carneiro

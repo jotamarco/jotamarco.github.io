@@ -13,8 +13,8 @@ main:
   - title: "Projects"
     url: /projetos/
 
-  - title: "Talks"
-    url: /talks/    
+  #- title: "Talks"
+  #  url: /talks/    
 
   - title: "Service"
     url: /portfolio/
