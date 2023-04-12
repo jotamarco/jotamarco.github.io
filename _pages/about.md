@@ -25,3 +25,8 @@ redirect_from:
 - Network Security
 - Energy-Efficient Communications
 - Non-authoritative Identification Systems
+
+
+![](/images/news64.png)
+
+- The paper *Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3* was accepted for the 2023 Workshop on ns-3 (WNS3)
