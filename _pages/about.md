@@ -10,8 +10,8 @@ redirect_from:
 
 
 ## Current positions
+- Assistant Professor at University of Minho. ([See more](https://www4.di.uminho.pt/~jno/sitedi/nm_6687.html))
 - Senior Researcher at INESC TEC - Institute for Systems and Computer Engineering, Technology and Science. ([See more](https://www.inesctec.pt/en/people/joao-marco))
-- Invited Assistant Professor at University of Minho. ([See more](https://www4.di.uminho.pt/~jno/sitedi/nm_6687.html))
 - Visinting Fellow at UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance. ([See more](https://egov.unu.edu/experts/joao-marco-silva.html#profile))
 
 
@@ -30,3 +30,5 @@ redirect_from:
 ![](/images/news64.png)
 
 - The paper *Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3* was accepted for the 2023 Workshop on ns-3 (WNS3)
+
+- The paper *AGE: Automatic Performance Evaluation of API Gateways* was accepted for the 28th IEEE Symposium on Computers and Communications (ISCC)
