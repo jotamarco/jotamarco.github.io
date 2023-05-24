@@ -7,9 +7,9 @@ author_profile: true
 
 ![](/images/calendar24.png) **2023**
 
-R. Monteiro and J.M.C. Silva, *Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3*, *Accepted* for The Workshop on ns-3 (WNS3), 2023.
+R. Monteiro and J.M.C. Silva, **Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3**, *Accepted* for The Workshop on ns-3 (WNS3), 2023.
 
-P. Moreira, A. Ribeiro, and J.M.C. Silva, *AGE: Automatic Performance Evaluation of API Gateways*, *Accepted* for The 28th IEEE Symposium on Computers and Communications (ISCC), 2023.
+P. Moreira, A. Ribeiro, and J.M.C. Silva, **AGE: Automatic Performance Evaluation of API Gateways**, *Accepted* for The 28th IEEE Symposium on Computers and Communications (ISCC), 2023.
 
 J. Mendes, S. Lima, P. Carvalho, and JMC Silva, **Impact of traffic sampling on LRD estimation**, in The 11st World Conference on Information Systems and Technologies (WorldCist), 2023. 
 

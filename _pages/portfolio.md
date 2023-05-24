@@ -67,15 +67,22 @@ author_profile: true
 
 ## Reviewer for international journals and conferences
 ### Journals and Magazines
+- (2023-Present): Computer Networks
+    - ISSN: 13891286
 - (2018–Present): International Journal of Communication Systems
     - ISSN: 10745351, 10991131
 - (2021–Present): Transactions on Emerging Telecommunications Technologies
     - ISSN: 21613915, 21615748
+- (2022): Integration, the VLSI Journal
+    - ISSN: 01679260
 
 ### TPC member in peer review conferences
 
 **2023**
+- ISCC: The 28th IEEE Symposium on Computers and Communications
+- DSN: The 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks
 - HPSR: The 24th International Conference on High-Performance Switching and Routing
+- ICEGOV: The 16th International Conference on Theory and Practice of Electronic Governance
 
 **2022**
 - HPSR: The 23th International Conference on High-Performance Switching and Routing
