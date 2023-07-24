@@ -29,6 +29,8 @@ redirect_from:
 
 ![](/images/news64.png)
 
+- The paper *CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior* was accepted for The 42nd International Symposium on Reliable Distributed Systems (SRDS 2023)
+
 - The paper *Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3* was accepted for the 2023 Workshop on ns-3 (WNS3)
 
 - The paper *AGE: Automatic Performance Evaluation of API Gateways* was accepted for the 28th IEEE Symposium on Computers and Communications (ISCC)
