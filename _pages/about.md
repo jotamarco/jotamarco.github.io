@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I work as an assistant professor at the Department of Informatics in the School of Engineering at the University of Minho. My main responsibility is teaching information security courses. Additionally, I am a senior researcher at INESC TEC where my research currently focuses on network security, energy-efficient communications, and non-authoritative identification systems.
+<div style='text-align: justify;'>
+  I work as an assistant professor at the Department of Informatics in the School of Engineering at the University of Minho. My main responsibility is teaching information security courses. Additionally, I am a senior researcher at INESC TEC where my research currently focuses on network security, energy-efficient communications, and non-authoritative identification systems.
+</div>
 
 ## Current positions
 - Assistant Professor at University of Minho. ([See more](https://www4.di.uminho.pt/~jno/sitedi/nm_6687.html))
