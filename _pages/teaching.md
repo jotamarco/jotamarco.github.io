@@ -14,6 +14,11 @@ author_profile: true
 - [Security of Information Systems](https://www4.di.uminho.pt/~jno/sitedi/uc_J306N3.html)
 - [Informatics Laboratories III](https://www4.di.uminho.pt/~jno/sitedi/uc_J303N1.html)
 
+**Programme:** BSc in Telecommunications and Informatics Engineering
+- [Cryptography and Network Security](https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4706&catId=14)
+
+**Programme:** MSc in Law and Informatics
+-[Privacy and Data Protection](https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4523&catId=14)
 
 ## Previous
 

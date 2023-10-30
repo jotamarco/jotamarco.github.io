@@ -7,12 +7,15 @@ author_profile: true
 
 ![](/images/calendar24.png) **2023**
 
+T. Esteves, B. Pereira, R. Oliveira, J.M.C. Silva, J. Paulo, **CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior**, in The 42nd International Symposium on Reliable Distributed Systems (SRDS 2023).
 
 R. Monteiro and J.M.C. Silva, **Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3**, in The Workshop on ns-3 (WNS3), 2023.
 
 P. Moreira, A. Ribeiro, and J.M.C. Silva, **AGE: Automatic Performance Evaluation of API Gateways**, in The 28th IEEE Symposium on Computers and Communications (ISCC), 2023.
 
-J. Mendes, S. Lima, P. Carvalho, and JMC Silva, **Impact of traffic sampling on LRD estimation**, in The 11st World Conference on Information Systems and Technologies (WorldCist), 2023. 
+J. Mendes, S. Lima, P. Carvalho, and JMC Silva, **Impact of traffic sampling on LRD estimation**, in The 11st World Conference on Information Systems and Technologies (WorldCist), 2023.
+
+W.R. Cardoso, J.M.C. Silva, A. Ribeiro, **An Expert System as an Awaredess Toll to Prevent Social Engineering Attacks in Public Organizations**, in the International Journal on Cybernetics & Informatics (IJCI), Vol.12, Nº5, 2023. 
 
 ![](/images/calendar24.png) **2022**
 

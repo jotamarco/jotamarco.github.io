@@ -19,6 +19,8 @@ redirect_from:
 
 **MSc**
 
+- Daniel Miranda. *Intrusion Detection in Software-Defined Networks.*
+- Pedro Ferreira. *Energy-aware network routing within energy flexibility scenarios.* 
 - João Meira. *Green communications: Integration of communication and energy distribution infrastructures.*
 - Cândido Vale. *Reputation system for distributed sources in non-authoritative identity systems.*
 - Luís Vila. *Management systems for access to personal identification attributes.*
