@@ -19,6 +19,13 @@ author_profile: true
 - **Website:** [idina.network](https://idina.network/en/home/)
 
 <p style="text-align: center;">...</p>
+
+### Saúde24h-GB
+- **Role:** Coordinator
+- **Summary:** 
+    Starting in January 2024, in collaboration with the NGO VIDA, INESC TEC is leading the project to develop the supporting system for the 24-hour health line service in Guinea Bissau.
+
+## Previous
  
 ### FLEXCOMM - Towards Energy-aware Communications: Connecting the power grid and communication infrastructure
 - **Funding:** FCT - Fundação para a Ciência e a Tecnologia
@@ -56,7 +63,7 @@ author_profile: true
 - **Role:** External researcher
 - **Description:** Project developing mechanisms for information security and data privacy in interoper- able medical record systems.
 
-## Previous
+<p style="text-align: center;">...</p>
 
 ### IDMobile - Digital Mobile Identification
 - **Funding:** R&D project commissioned by INCM - Imprensa Nacional-Casa da Moeda
