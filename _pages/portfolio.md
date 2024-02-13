@@ -7,6 +7,16 @@ author_profile: true
 
 ## Participation in juries for academic degrees
 
+**2024**
+- *Title:* O alargamento das competências da Europol e os desafios emergentes: análise ao Regulamento (UE) 2022/991 do Parlamento e do Conselho de 8 de junho de 2022
+    - *Candidate:* Filipa Maria Coelho Moreira
+    - *Programme:* Mestrado em Direito e Informática - Universidade do Minho
+
+**2023**
+- *Title:* Serviço VoIP em Asterisk e suas Vulnerabilidades
+    - *Candidate:* João Paulo Gonçalves Pedrosa
+    - *Programme:* Mestrado em Cibersegurança e Informática Forense - Instituto Politécnico de Leiria
+
 **2022**
 - *Title:* Análise de Desempenho do Mobile Blockchain em Arquitetura de Computação de Borda Móvel
     - *Candidate:* Thiago José Sandes Melo
