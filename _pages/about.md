@@ -33,8 +33,9 @@ redirect_from:
 
 ![](/images/news64.png)
 
-- The paper *A worldwide overview on the information security posture of online public services* was accepted for The Hawaii International Conference on System Sciences (HICSS 57, 2024)
+- Starting in January 2024, in collaboration with the NGO VIDA, I am leading the project to develop the supporting system for the 24-hour health line service in Guinea Bissau.
+
+- The paper *A worldwide overview on the information security posture of online public services* was presented for The Hawaii International Conference on System Sciences (HICSS 57, 2024)
 
 - The paper *CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior* was presented in The 42nd International Symposium on Reliable Distributed Systems (SRDS 2023)
 
-- The paper *Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3* was presented in The 2023 Workshop on ns-3 (WNS3)

@@ -77,14 +77,18 @@ author_profile: true
 
 ## Reviewer for international journals and conferences
 ### Journals and Magazines
-- (2023-Present): Computer Networks
+- (2023): Computer Networks
     - ISSN: 13891286
+- (2023): International Journal of Critical Computer-Based Systems
+    - ISSN: 17578779, 17578787
 - (2018–Present): International Journal of Communication Systems
     - ISSN: 10745351, 10991131
-- (2021–Present): Transactions on Emerging Telecommunications Technologies
+- (2021): Transactions on Emerging Telecommunications Technologies
     - ISSN: 21613915, 21615748
 - (2022): Integration, the VLSI Journal
     - ISSN: 01679260
+- (2019): Future Generation Computer Systems
+    - ISSN: 18727115, 0167739X
 
 ### TPC member in peer review conferences
 
