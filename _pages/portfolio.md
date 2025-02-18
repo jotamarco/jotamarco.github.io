@@ -7,10 +7,38 @@ author_profile: true
 
 ## Participation in juries for academic degrees
 
+**2025**
+
+- *Title:* Cibercrime e cyberbullying na perspectiva do direito português 
+    - *Candidate:* Carlos Alberto de Miranda Menezes
+    - *Programme:* Mestrado em Direito e Informática - Universidade do Minho
+
 **2024**
+
+- *Title:* Beyond Distributed Transactions through Exactly-once Exchanges
+    - *Candidate:* Ziad Kassam
+    - *Programme:* Doctoral Program in Informatics - Universidade do Minho
+
+- *Title:* Multi-factor Authentication in U.Porto
+    - *Candidate:* André Malheiro
+    - *Programme:* Master in Informatics and Computing Engineering - Universidade do Porto
+
+- *Title:* Stateful Security Testing of Web APIs
+    - *Candidate:* Gédsimon Soares Pereira
+    - *Programme:* Mestrado em Engenharia de Software - Universidade do Porto
+
 - *Title:* O alargamento das competências da Europol e os desafios emergentes: análise ao Regulamento (UE) 2022/991 do Parlamento e do Conselho de 8 de junho de 2022
     - *Candidate:* Filipa Maria Coelho Moreira
     - *Programme:* Mestrado em Direito e Informática - Universidade do Minho
+
+- *Title:* Os Meios de Vigilância e Controlo no Contrato de Teletrabalho
+    - *Candidate:* Mariana Henriques Rocha
+    - *Programme:* Mestrado em Direito e Informática - Universidade do Minho
+
+- *Title:* A Busca Eletrónica como meio de obtenção de prova: uma abordagem da dinâmica prático-processual na investigação criminal
+    - *Candidate:* Tiago Filipe Lopes da Silva
+    - *Programme:* Mestrado em Direito e Informática - Universidade do Minho
+
 
 **2023**
 - *Title:* Serviço VoIP em Asterisk e suas Vulnerabilidades
@@ -77,6 +105,8 @@ author_profile: true
 
 ## Reviewer for international journals and conferences
 ### Journals and Magazines
+- (2024): Communications Magazine
+    - ISSN: 01636804
 - (2023): Computer Networks
     - ISSN: 13891286
 - (2023): International Journal of Critical Computer-Based Systems
@@ -91,6 +121,10 @@ author_profile: true
     - ISSN: 18727115, 0167739X
 
 ### TPC member in peer review conferences
+
+**2024**
+- SRDS: The 43rd International Symposium on Reliable Distributed Systems
+- ICEGOV: The 17th International Conference on Theory and Practice of Electronic Governance
 
 **2023**
 - ISCC: The 28th IEEE Symposium on Computers and Communications

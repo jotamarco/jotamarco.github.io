@@ -9,6 +9,9 @@ author_profile: true
 
 JMC Silva, D. Ribeiro, LF. Ramos, V. Fonte, **A worldwide overview on the information security posture of online public services**, in The 57th Hawaii International Conference on System Sciences (HICSS 2024).
 
+Cardoso WR, Ribeiro AD, Silva JMC., **Expert Systems in Information Security: A Comprehensive Exploration of Awareness Strategies Against Social Engineering Attacks**, in World Conference on Information Systems and Technologies (2024).
+
+
 ![](/images/calendar24.png) **2023**
 
 T. Esteves, B. Pereira, R. Oliveira, J.M.C. Silva, J. Paulo, **CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior**, in The 42nd International Symposium on Reliable Distributed Systems (SRDS 2023).

@@ -33,9 +33,6 @@ redirect_from:
 
 ![](/images/news64.png)
 
-- Starting in January 2024, in collaboration with the NGO VIDA, I am leading the project to develop the supporting system for the 24-hour health line service in Guinea Bissau.
+- Guinea-Bissau’s first 24-hour Health Line features INESC TEC technology ([See more](https://bip.inesctec.pt/en/noticias/guinea-bissaus-first-24-hour-health-line-features-inesc-tec-technology/))
 
-- The paper *A worldwide overview on the information security posture of online public services* was presented for The Hawaii International Conference on System Sciences (HICSS 57, 2024)
-
-- The paper *CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior* was presented in The 42nd International Symposium on Reliable Distributed Systems (SRDS 2023)
 
