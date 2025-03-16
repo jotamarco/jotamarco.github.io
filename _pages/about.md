@@ -13,7 +13,7 @@ redirect_from:
 </div>
 
 ## Current positions
-- Assistant Professor at University of Minho. ([See more](https://www4.di.uminho.pt/~jno/sitedi/nm_6687.html))
+- Assistant Professor at University of Minho. ([See more](https://www.di.uminho.pt/~jno/sitedi/nm_6687.html))
 - Senior Researcher at INESC TEC - Institute for Systems and Computer Engineering, Technology and Science. ([See more](https://www.inesctec.pt/en/people/joao-marco))
 - Adjunct Professor at UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance. ([See more](https://egov.unu.edu/experts/joao-marco-silva.html#profile))
 
