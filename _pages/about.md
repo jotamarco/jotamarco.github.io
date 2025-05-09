@@ -33,6 +33,8 @@ redirect_from:
 
 ![](/images/news64.png)
 
+- The new paper entitled _Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications_ has been published in the Government Information Quarterly. [Open Access](https://www.sciencedirect.com/science/article/pii/S0740624X25000255)
+
 - Guinea-Bissau’s first 24-hour Health Line features INESC TEC technology ([See more](https://bip.inesctec.pt/en/noticias/guinea-bissaus-first-24-hour-health-line-features-inesc-tec-technology/))
 
 
