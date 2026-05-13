@@ -15,7 +15,7 @@ author_profile: true
 - [Applied Cryptography](https://mcn.di.uminho.pt/courses/en/ac/)
 
 **Programme:** BSc in Informatics Engineering
-- [Security of Information Systems](https://www4.di.uminho.pt/~jno/sitedi/uc_J306N3.html)
+- [Security of Information Systems](https://lei.di.uminho.pt/courses/ssi.pt/)
 
 **Programme:** BSc in Telecommunications and Informatics Engineering
 - [Cryptography and Network Security](https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4706&catId=14)
