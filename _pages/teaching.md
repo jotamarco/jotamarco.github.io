@@ -7,12 +7,15 @@ author_profile: true
 
 ## Current
 
-**Programme:** MSc in Informatics Engineering
-- [Security Technologies](https://www4.di.uminho.pt/~jno/sitedi/uc_ME78ME7800006556.html)
+**Programme:** MSc in Cybersecurity
+- [Data Security](https://mcs.di.uminho.pt/courses/ds/)
+- [Cybersecurity Laboratories 1](https://mcs.di.uminho.pt/courses/cl1/)
+
+**Programme:** MSc in Computer Networking
+- [Applied Cryptography](https://mcn.di.uminho.pt/courses/en/ac/)
 
 **Programme:** BSc in Informatics Engineering
 - [Security of Information Systems](https://www4.di.uminho.pt/~jno/sitedi/uc_J306N3.html)
-- [Informatics Laboratories III](https://www4.di.uminho.pt/~jno/sitedi/uc_J303N1.html)
 
 **Programme:** BSc in Telecommunications and Informatics Engineering
 - [Cryptography and Network Security](https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4706&catId=14)
@@ -21,6 +24,12 @@ author_profile: true
 - [Privacy and Data Protection](https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4523&catId=14)
 
 ## Previous
+
+**Programme:** MSc in Informatics Engineering
+- (2017-2024) Security Technologies
+
+**Programme:** BSc in Informatics Engineering
+- (2021-2024) Informatics Laboratories III
 
 **Programme:** Integrated MSc in Informatics Engineering
 - (2017-2021) Security Technologies
