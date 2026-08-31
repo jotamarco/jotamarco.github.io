@@ -8,7 +8,7 @@ author_profile: true
 ![](/images/calendar24.png) **2025**
 
 D Ribeiro, V Fonte, LF Ramos, JM Silva. **Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications**. In: Government Information Quarterly (GIQ, 2025).
-<a href="Papers/cv2025-GIQ.pdf" target="_blank">Available here</a>
+<a href="Papers/2025-GIQ.pdf" target="_blank">Available here</a>
 
 
 Daniel Miranda, Rui Monteiro, and João Marco C Silva. **p4SD: A Lightweight Port Scan Detection for Programmable Networks**. In: International Conference on Software, Telecommunications and Computer Networks (SoftCOM, 2025).
