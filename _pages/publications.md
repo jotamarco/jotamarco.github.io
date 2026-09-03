@@ -26,6 +26,7 @@ D Ribeiro, V Fonte, LF Ramos, JM Silva. **Assessing the information security pos
 
 
 Daniel Miranda, Rui Monteiro, and João Marco C Silva. **p4SD: A Lightweight Port Scan Detection for Programmable Networks**. In: International Conference on Software, Telecommunications and Computer Networks (SoftCOM, 2025).
+<a href="/Papers/2025-softcom.pdf" target="_blank">Available here</a>
 
 Admilson Ribeiro, and João Marco C. Silva. **Anomaly-Based Technique To Detect Social Engineering Attacks Using Online Learning**. In: World Conference on Information Systems and Technologies (WorldCIST, 2025).
 
@@ -33,10 +34,16 @@ Admilson Ribeiro, and João Marco C. Silva. **Anomaly-Based Technique To Detect 
 ![](/images/calendar24.png) **2024**
 
 JMC Silva, D. Ribeiro, LF. Ramos, V. Fonte, **A worldwide overview on the information security posture of online public services**, in The 57th Hawaii International Conference on System Sciences (HICSS 2024).
+<a href="/Papers/2024-HICSS.pdf" target="_blank">Available here</a>
 
 Cardoso WR, Ribeiro AD, Silva JMC., **Expert Systems in Information Security: A Comprehensive Exploration of Awareness Strategies Against Social Engineering Attacks**, in World Conference on Information Systems and Technologies (2024).
+<a href="/Papers/2024-WorldCIST.pdf" target="_blank">Available here</a>
 
 Admilson Ribeiro, and João Marco C. Silva. **Classification-Based Technique to Detect Social Engineering Attacks Using Continuous Data Stream Machine Learning Algorithms**, in Iberian Conference on Information Systems and Technologies (CISTI, 2024).
+<a href="/Papers/2024-CISTI.pdf" target="_blank">Available here</a>
+
+Cardoso, Waldson Rodrigues, Admilson de Ribamar Lima Ribeiro, and João Marco Cardoso Silva. **APSEA: An Awareness and Prevention Expert System against Social Engineering Attacks in Public Organizations.** (2024).
+<a href="/Papers/2024-ResearchSquare.pdf" target="_blank">Available here</a>
 
 
 ![](/images/calendar24.png) **2023**
