@@ -33,6 +33,10 @@ redirect_from:
 
 ![](/images/news64.png)
 
+- New paper entitled _It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection_ has been published in the IEEE European Symposium on Security and Privacy Workshops (EuroS&PW 2026). <a href="/Papers/2026-WORMA.pdf" target="_blank">Available here</a>
+
+- New paper entitled _The Path to an Inclusive Identity: A Non-Authoritative Approach_ has been publishe in the IEEE ACCESS. [Open Access](https://ieeexplore.ieee.org/abstract/document/11618512)
+
 - New report entitled _Índice de Presença na Internet das Câmaras Municipais Portuguesas (IPIC)_ has been published by the UNU-EGOV and Gávea. [Open Access](https://gaveadsi.wixsite.com/gavea/publicacoes/e12a9cbd-e08c-4e8f-a475-07155b6793e6)
 
 - The new paper entitled _Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications_ has been published in the Government Information Quarterly. [Open Access](https://www.sciencedirect.com/science/article/pii/S0740624X25000255)
