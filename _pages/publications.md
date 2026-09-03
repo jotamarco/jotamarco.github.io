@@ -5,6 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
+![](/images/calendar24.png) **2026**
+
+D. Ribeiro and JM Silva. **The Path to an Inclusive Identity: A Non-Authoritative Approach** In: IEEE Access, vol. 14, pp. 112282-112305, 2026.
+<a href="/Papers/2026-Access.pdf" target="_blank">Available here</a>
+
+B. Pereira et al. **It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection** IN: 2026 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW 2026).
+<a href="/Papers/2026-WORMA.pdf" target="_blank">Available here</a>
+
+Ricardo Oliveira and JM Silva. **ICARUS: Intelligence-driven Contextual Assessment of Risks in Unseen Scenarios**. In: International Conference on Software, Telecommunications and Computer Networks (SoftCOM, 2026).
+<a href="/Papers/2026-SoftCOM.pdf" target="_blank">Available here</a>
+
+D. Ribeiro and JM Silva. **Reputation-Aware Truth Discovery for Robust Evidence Fusion in RAG Pipelines**. In: 24th International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS, 2026).
+<a href="/Papers/2026-PAAMS.pdf" target="_blank">Available here</a>
+
 ![](/images/calendar24.png) **2025**
 
 D Ribeiro, V Fonte, LF Ramos, JM Silva. **Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications**. In: Government Information Quarterly (GIQ, 2025).
