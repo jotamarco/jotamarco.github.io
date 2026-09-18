@@ -7,6 +7,9 @@ author_profile: true
 
 ![](/images/calendar24.png) **2026**
 
+R. Monteiro and  JM Silva. **On the Quest for Energy Efficient UDP Sockets** In: 22nd International Conference on Network and Service Management (CNSM), 2026.
+<a href="/Papers/2026-CNSM.pdf" target="_blank">Author's copy</a>
+
 D. Ribeiro and JM Silva. **The Path to an Inclusive Identity: A Non-Authoritative Approach** In: IEEE Access, vol. 14, pp. 112282-112305, 2026.
 <a href="/Papers/2026-Access.pdf" target="_blank">Author's copy</a>
 
