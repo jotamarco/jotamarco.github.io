@@ -1,0 +1,38 @@
+# =====================================================================
+#  LATEST NEWS  — shown on the home page, in this order (newest first)
+# =====================================================================
+#  - when: 2027
+#    kind: Paper              # short label, e.g. Paper | Award | Projects | Talk
+#    text: New paper *Title in italics* accepted at XYZ 2027.   # Markdown allowed
+#    link: /publications/?q=2027    # optional; internal (/…) or external (https://…)
+#    link_text: See paper           # optional
+
+- when: "2026"
+  kind: Report
+  text: "The *UN E-Government Survey 2026* is out. It is the first edition with a dedicated cybersecurity assessment of the national portals of all 193 UN Member States, a dimension I led."
+  link: https://ekap.desa.un.org/Reports/Detail/5
+  link_text: Read the report
+
+- when: "2026"
+  kind: Award
+  text: "*Academic Merit Award* from the School of Engineering, given to faculty ranking in the top 10% of their department."
+  link: https://www.engium.uminho.pt/diadaescola2026/
+  link_text: More
+
+- when: "2026"
+  kind: Paper
+  text: "Two papers accepted: *On the Quest for Energy Efficient UDP Sockets* (CNSM 2026), where I also chair the session on Cyber Threat Intelligence and Internet Security, and *P4Log* (IEEE NCA 2026)."
+  link: "/publications/?q=2026"
+  link_text: See 2026 papers
+
+- when: "2026"
+  kind: Projects
+  text: "New projects started: *MOBOT2.0*, *RESCUEWARE* and *INOCULUM*, on cybersecurity for industrial robotics, healthcare systems and storage resilience against ransomware."
+  link: "/projetos/"
+  link_text: Projects
+
+- when: "2026"
+  kind: Paper
+  text: "*The Path to an Inclusive Identity: A Non-Authoritative Approach* — IEEE Access."
+  link: https://doi.org/10.1109/ACCESS.2026.3716120
+  link_text: Open access

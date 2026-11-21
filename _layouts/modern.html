@@ -1,0 +1,77 @@
+---
+---
+{%- comment -%}
+  Layout of the redesigned site. Pages choose their content with "view:" in the front matter
+  (home, teaching, supervision, publications, projects, software, service). The text written in the page
+  file itself (Markdown) is shown under the title, before the generated sections.
+  All lists come from the YAML files in _data/ — see HOW-TO-UPDATE.md.
+{%- endcomment -%}
+{%- assign pr = site.data.profile -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.url == "/" %}{{ pr.name }} — {{ pr.headline }}{% else %}{{ page.title }} - {{ pr.name }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: 'João Marco Silva — Assistant Professor at the University of Minho and researcher at INESC TEC. Information security, intrusion detection and trusted digital identity.' | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default: pr.name | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ pr.avatar | absolute_url }}">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-16x16.png' | relative_url }}" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+<link rel="shortcut icon" href="{{ '/images/favicon.ico' | relative_url }}">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/modern.css' | relative_url }}">
+</head>
+<body>
+
+<div class="masthead"><nav>
+  <a class="home{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+  {%- for l in site.data.navigation.main %}
+  <a href="{{ l.url | relative_url }}"{% if page.url == l.url %} class="active"{% endif %}>{{ l.title }}</a>
+  {%- endfor %}
+</nav></div>
+
+<div class="layout">
+  <aside class="sidebar">
+    <img src="{{ pr.avatar | relative_url }}" alt="Photo of {{ pr.name }}">
+    <div>
+      <h3>{{ pr.name }}</h3>
+      <p class="bio">{{ pr.headline }}</p>
+    </div>
+    <ul>
+      <li><i class="fa-solid fa-location-dot"></i>{{ pr.location }}</li>
+      <li><i class="fa-solid fa-envelope"></i>{{ pr.email_display }}</li>
+      <li class="sep"></li>
+      {%- for l in pr.links %}
+      <li><i class="{{ l.icon }}"></i><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </aside>
+
+  <main>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    {%- case page.view -%}
+      {%- when "home" -%}{% include modern/home.html %}
+      {%- when "publications" -%}{% include modern/publications.html %}
+      {%- when "teaching" -%}{% include modern/teaching.html %}
+      {%- when "supervision" -%}{% include modern/supervision.html %}
+      {%- when "projects" -%}{% include modern/projects.html %}
+      {%- when "software" -%}{% include modern/software.html %}
+      {%- when "service" -%}{% include modern/service.html %}
+    {%- endcase %}
+  </main>
+</div>
+
+<footer>© {{ site.time | date: "%Y" }} {{ pr.name }} · Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &amp; <a href="https://academicpages.github.io" target="_blank" rel="noopener">AcademicPages</a> · Last updated {{ site.time | date: "%B %Y" }}</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="{{ '/assets/js/modern.js' | relative_url }}" defer></script>
+</body>
+</html>

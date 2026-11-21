@@ -1,0 +1,31 @@
+{%- comment -%} Projects page. Data: _data/teams.yml, projects.yml {%- endcomment -%}
+{%- assign pj = site.data.projects -%}
+<h2>Research teams</h2>
+<div class="cards">
+  {%- for t in site.data.teams %}
+  <div class="card"><span class="org">{{ t.years }}</span><span class="ttl">{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %} <span class="muted" style="font-weight:400">— {{ t.full_name }}</span></span><span><span class="badge lead">{{ t.role }}</span></span><span class="small">{{ t.description | escape }}</span></div>
+  {%- endfor %}
+</div>
+
+<h2>Ongoing <span class="count">{{ pj.ongoing.size }} projects</span></h2>
+<div class="cards">
+  {%- for p in pj.ongoing %}
+  <div class="card"><span class="org">{{ p.years }}</span><span class="ttl">{% if p.website %}<a href="{{ p.website.url }}" target="_blank" rel="noopener">{{ p.acronym | default: p.name }}</a>{% else %}{{ p.acronym | default: p.name }}{% endif %}</span>{% if p.acronym %}<span class="small muted" style="margin-top:-.2em">{{ p.name | escape }}</span>{% endif %}<span><span class="badge role">{{ p.role }}</span></span><span class="small">{{ p.summary | escape }}</span><span class="small muted" style="margin-top:auto;padding-top:.3em"><i class="fa-solid fa-coins" style="font-size:.85em"></i> {{ p.funding | escape }}</span></div>
+  {%- endfor %}
+</div>
+
+<h2>Previous <span class="count">{{ pj.previous.size }} projects</span></h2>
+{%- for p in pj.previous %}
+{%- assign lead = false %}{% if p.role contains "PI" or p.role contains "oordinator" or p.role contains "leader" %}{% assign lead = true %}{% endif %}
+<details class="item">
+  <summary><span class="y">{{ p.years }}</span><span class="nm">{% if p.acronym %}{{ p.acronym }} — {% endif %}{{ p.name | escape }}<small>{{ p.funding | escape }}</small></span><span class="badge{% if lead %} role{% endif %}">{{ p.role }}</span></summary>
+  <div class="body">
+    {%- if p.image %}<img class="proj-img" src="{{ p.image | relative_url }}" alt="{{ p.acronym }} logo">{% endif %}
+    <p>{{ p.summary | escape }}</p>
+    {%- if p.reference or p.website %}<dl class="kv">{% if p.reference %}<dt>Reference</dt><dd>{{ p.reference }}</dd>{% endif %}{% if p.website %}<dt>Website</dt><dd><a href="{{ p.website.url }}" target="_blank" rel="noopener">{{ p.website.label }}</a></dd>{% endif %}</dl>{% endif %}
+  </div>
+</details>
+{%- endfor %}
+
+<h2>Software and prototypes</h2>
+<p>Tools and prototypes from these projects, most of them open source, are listed on the <a href="{{ '/software/' | relative_url }}">Software page →</a></p>

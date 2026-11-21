@@ -1,0 +1,185 @@
+# =====================================================================
+#  INVITED TALKS  — shown on /portfolio/ (Service page), grouped by scope
+# =====================================================================
+#  - year: 2027
+#    kind: Keynote          # Keynote | Invited talk | Invited seminar | Webinar | Seminar | Guest lecture
+#    title: Title of the talk
+#    venue: Event — Institution, Country
+#    scope: abroad          # abroad | national | uminho
+#    link: https://…        # optional (video or event page)
+
+- year: 2026
+  kind: Webinar
+  title: "Identidade digital centrada nas pessoas: experiências internacionais"
+  venue: Diálogos sobre Governação Digital — digital identity and public services in the PALOP
+  scope: abroad
+  link: https://www.youtube.com/watch?v=v9pNp49nFeA
+
+- year: 2026
+  kind: Keynote
+  title: A importância da recolha de dados e da tecnologia para otimizar as respostas em Saúde e coordenação com outros sectores públicos
+  venue: II Encontro Anual da Linha de Saúde 24h — Guinea-Bissau
+  scope: abroad
+
+- year: 2026
+  kind: Keynote
+  title: Desafios e oportunidades na adoção de sistemas não-autoritativos de identidade no contexto da Guiné-Bissau
+  venue: UNDP headquarters — Guinea-Bissau
+  scope: abroad
+
+- year: 2026
+  kind: Keynote
+  title: Cybersecurity Posture Index Results for Portuguese Municipalities
+  venue: IPIC public presentation — ARTE, Agência para a Reforma Tecnológica do Estado
+  scope: national
+  link: https://unu.edu/egov/event/ipic-2025-public-presentation-session
+
+- year: 2025
+  kind: Webinar
+  title: A global overview of information security in online public services
+  venue: Grupo de Transformação Digital (GTD.gov) — Brazil
+  scope: abroad
+
+- year: 2025
+  kind: Keynote
+  title: O papel do open-source na Linha de Saúde 24h da Guiné-Bissau
+  venue: Encontro Anual da Linha de Saúde 24h — Guinea-Bissau
+  scope: abroad
+
+- year: 2025
+  kind: Webinar
+  title: A global overview of information security in online public services
+  venue: Semana Acadêmica de Redes de Computadores — Universidade Federal de Santa Maria, Brazil
+  scope: abroad
+
+- year: 2025
+  kind: Seminar
+  title: DISSECT — Digital Infrastructure Security Assessment Laboratory
+  venue: Scientific Forums of the Distributed Systems Group — University of Minho
+  scope: uminho
+
+- year: 2024
+  kind: Invited seminar
+  title: A worldwide overview of the information security posture of online public services
+  venue: United Nations University (UNU-EGOV)
+  scope: national
+
+- year: 2024
+  kind: Guest lecture
+  title: "Cybersecurity: Concepts and Best Practices"
+  venue: MSc in Engineering Physics — University of Minho
+  scope: uminho
+
+- year: 2023
+  kind: Seminar
+  title: "Non-Authoritative Identification Systems: The IDINA approach"
+  venue: Department of Informatics — University of Minho
+  scope: uminho
+
+- year: 2022
+  kind: Invited seminar
+  title: Challenges and opportunities in digital identity
+  venue: Master’s Program in Computer Science — Universidade Federal de Sergipe, Brazil
+  scope: abroad
+
+- year: 2022
+  kind: Keynote
+  title: "Towards Energy-aware Communications: Connecting the power grid and communication infrastructure"
+  venue: Encontro Nacional de Sistemas Distribuídos (ENSD)
+  scope: national
+
+- year: 2022
+  kind: Keynote
+  title: "IDINA: Desafios e Oportunidades"
+  venue: Inovação na INCM e Prémio IN3+
+  scope: national
+
+- year: 2021
+  kind: Keynote
+  title: Ethic & local universal mID
+  venue: LisbonID Conference & Digital ID Hub
+  scope: national
+
+- year: 2021
+  kind: Guest lecture
+  title: Challenges and opportunities in digital identity
+  venue: MSc in Engineering Physics — University of Minho
+  scope: uminho
+
+- year: 2020
+  kind: Webinar
+  title: "Next-generation digital identification systems: the case of the mobile driver’s licence (mDL, ISO/IEC 18013-5)"
+  venue: Semana da Informática — Universidade Federal de Santa Maria, Brazil
+  scope: abroad
+
+- year: 2020
+  kind: Webinar
+  title: Perspectives and Trends in Information Technology Market
+  venue: Faculdade Antonio Meneghetti, Brazil
+  scope: abroad
+
+- year: 2019
+  kind: Invited seminar
+  title: "Data Security and Trustworthiness in Online Public Services: An Assessment of Portuguese Institutions"
+  venue: United Nations University (UNU-EGOV)
+  scope: national
+
+- year: 2018
+  kind: Invited seminar
+  title: Sustainable Smart Cities
+  venue: Georgian civil servants — UNU-EGOV
+  scope: national
+
+- year: 2017
+  kind: Keynote
+  title: Information security in public administration
+  venue: PASP localized actions — Mozambique
+  scope: abroad
+
+- year: 2017
+  kind: Keynote
+  title: The challenges of open data in the public sector
+  venue: PASP localized actions — São Tomé and Príncipe
+  scope: abroad
+
+- year: 2017
+  kind: Keynote
+  title: "Open source in public administration: The case of Brazil"
+  venue: PASP localized actions — East-Timor
+  scope: abroad
+
+- year: 2015
+  kind: Seminar
+  title: Assessing accuracy and computational burden in traffic flow identification through sampling
+  venue: Computer Communications and Networks Group workshop — University of Minho
+  scope: uminho
+
+- year: 2014
+  kind: Guest lecture
+  title: A modular traffic sampling architecture for supporting network management
+  venue: Master in Informatics Engineering — University of Minho
+  scope: uminho
+
+- year: 2013
+  kind: Guest lecture
+  title: Enhancing traffic sampling scope and efficiency
+  venue: Master in Informatics Engineering — University of Minho
+  scope: uminho
+
+- year: 2012
+  kind: Guest lecture
+  title: "Network measurements through traffic sampling techniques: a review"
+  venue: Master in Networks and Communication Services — University of Minho
+  scope: uminho
+
+- year: 2011
+  kind: Invited seminar
+  title: "2D adaptive traffic sampling"
+  venue: Department of Computer Science — Universidade Federal de Sergipe, Brazil
+  scope: abroad
+
+- year: 2011
+  kind: Guest lecture
+  title: Aspects and challenges of network monitoring through traffic sampling
+  venue: Master in Networks and Communication Services — University of Minho
+  scope: uminho

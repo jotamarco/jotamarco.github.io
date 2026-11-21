@@ -1,0 +1,74 @@
+# =====================================================================
+#  SOFTWARE AND PROTOTYPES  — shown on /software/ (newest first)
+# =====================================================================
+#  - year: 2027
+#    name: Tool name
+#    description: What it does
+#    link: https://github.com/…   # optional
+#    status: Open source           # optional badge (Open source | Software registration requested | …)
+#    paper: ICARUS                 # optional: search term that finds the related paper on /publications/
+
+- year: 2025
+  name: ICARUS
+  description: Correlates public cyber threat intelligence (STIX) with telemetry from monitoring agents, and tracks how threat relevance decays over time.
+  link: https://github.com/RicAlvesO/ICARUS/tree/main
+  status: Open source
+  paper: ICARUS
+
+- year: 2025
+  name: P4SD
+  description: Signature-free anomaly detection for P4 programmable switches using a cyclic fingerprint buffer and frequency analysis.
+  link: https://github.com/dissect-project/p4SD
+  status: Open source
+  paper: p4SD
+
+- year: 2025
+  name: ISO 18013-5 access control
+  description: Lab access control for INESC TEC using the ISO 18013-5 mobile identity standard.
+  status: Software registration requested
+
+- year: 2024
+  name: Linha de Saúde 24h
+  description: Registration, triage, monitoring and reporting system for Guinea-Bissau’s 24-hour health line.
+  link: https://shorturl.at/agglW
+  status: Software registration requested
+
+- year: 2024
+  name: IDINA platform
+  description: Non-authoritative identity system (backend, frontend and mobile apps).
+  link: https://idina.network/en/home/
+  status: Software registration requested
+
+- year: 2023
+  name: CRIBA
+  description: Framework for analysing the I/O behaviour of Linux cryptographic ransomware.
+  link: https://github.com/dsrhaslab/criba
+  status: Open source
+  paper: CRIBA
+
+- year: 2022
+  name: MPTCP security plugin
+  description: Extends the Linux MPTCP daemon to prevent cross-path attacks in distributed IDS environments.
+  link: https://github.com/MPTCP-Lab/mini_httpd_mptcp
+  status: Open source
+  paper: Securing MPTCP
+
+- year: 2022
+  name: MPTCP simulator
+  description: Extension of the CORE network emulator to support MPTCP.
+  link: https://github.com/MPTCP-Lab/mptcp_test_bed
+  status: Open source
+
+- year: 2021
+  name: Python MPTCP support
+  description: MPTCP support component merged into the official Python 3.10 release.
+
+- year: 2021
+  name: Portuguese mobile driving licence
+  description: Functional ISO/IEC 18013-5 prototypes developed for INCM.
+
+- year: 2015
+  name: Traffic sampling framework
+  description: Modular framework for flexible deployment of traffic sampling techniques (PhD work).
+  link: https://doi.org/10.1109/SOFTCOM.2015.7314061
+  paper: modular sampling framework

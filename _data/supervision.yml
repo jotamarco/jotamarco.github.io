@@ -1,0 +1,357 @@
+# =====================================================================
+#  SUPERVISION  — shown on /supervision/ (counts on the home page too)
+# =====================================================================
+#  programmes:     short codes used in the "programme" field of MSc entries
+#  phd:            ongoing PhD students
+#  msc_ongoing:    role is Advisor or Co-advisor
+#  msc_concluded:  move an entry here (and set year) when the student defends;
+#                  co_advisor is optional
+#  bsc_concluded, researchers, grants: as shown on the page
+
+programmes:
+  MEI: MSc in Informatics Engineering
+  MIEI: Integrated MSc in Informatics Engineering
+  MDI: MSc in Law and Informatics
+  MRSTI: MSc in Computer Networks and Telematic Services
+
+phd:
+  - since: 2026–
+    name: Fernando António Freitas Moreira
+    topic: Federated, multimodal, and explainable liveness detection for the next-generation EU Digital Identity Wallet.
+    programme: Doctoral Programme in Informatics (PDInf)
+  - since: 2022–
+    name: Diogo Pinto Ribeiro
+    topic: Trusted non-authoritative identification systems.
+    programme: Doctoral Programme in Informatics (PDInf)
+
+msc_ongoing:
+  - since: 2025/26
+    name: Paulo André Alegre Pinto
+    title: Data optimization mechanisms in intrusion detection systems.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Vasco da Fonseca Teixeira
+    title: Dynamic assessment of online service trust.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Martim José Amaro Redondo
+    title: Dynamic evaluation of attack surfaces based on web code analysis.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Daniel Henrique Cracel Rodrigues
+    title: Authentication mechanisms based on ISO 18013-5.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Eduardo André Silva Cunha
+    title: Dynamic attack trees based on threat models.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Pedro Eira de Sousa
+    title: A tool for longitudinal analysis of vulnerabilities.
+    role: Advisor
+    programme: MEI
+  - since: 2025/26
+    name: Dárida Victória Tido Martins
+    title: Data governance and cookie policies in Portuguese municipalities.
+    role: Co-advisor
+    programme: MDI
+  - since: 2025/26
+    name: Joana da Conceição Fernandes
+    title: "As criptomoedas e a sucessão mortis causa: a transmissão de ativos digitais no ordenamento jurídico português."
+    role: Co-advisor
+    programme: MDI
+  - since: 2025/26
+    name: Valentina Santos Canducci Molina
+    title: "O direito fundamental à proteção de dados na era algorítmica: privacidade diferencial e o desafio da efetividade no RGPD."
+    role: Co-advisor
+    programme: MDI
+  - since: 2024/25
+    name: Afonso Franco Ferreira
+    title: Performance analysis of secure DNS solutions.
+    role: Advisor
+    programme: MEI
+  - since: 2024/25
+    name: Bruna Raquel Noversa Macieira
+    title: Flexible privacy enhancing solutions.
+    role: Advisor
+    programme: MEI
+  - since: 2024/25
+    name: Xavier Santos Mota
+    title: Exploitation of INT solutions based on P4.
+    role: Advisor
+    programme: MEI
+  - since: 2023/24
+    name: Beatriz Fernandes Oliveira
+    title: Assessing information security of online services through automatic systems.
+    role: Advisor
+    programme: MEI
+  - since: 2023/24
+    name: Pedro Miguel Marques Ferreira
+    title: Energy-aware network routing within energy flexibility scenarios.
+    role: Advisor
+    programme: MEI
+
+msc_concluded:
+  - year: 2024/25
+    name: Ricardo Alves Oliveira
+    title: Cyber Threat Intelligence-based alert system.
+    role: Advisor
+    programme: MEI
+  - year: 2024/25
+    name: Luís Manuel Fernandes Pereira
+    title: Fault-tolerant distributed logging on a programmable data plane.
+    role: Advisor
+    programme: MEI
+  - year: 2024/25
+    name: Tiago Passos Rodrigues
+    title: A secure system for recording consent of personal data processing.
+    role: Advisor
+    programme: MEI
+  - year: 2024/25
+    name: Danyella Nunes de Souza Marques
+    title: "Proteção de dados e segurança nos serviços de computação em nuvem: uma abordagem interdisciplinar no contexto europeu e brasileiro."
+    role: Advisor
+    programme: MDI
+  - year: 2023/24
+    name: Cândido Filipe Lima do Vale
+    title: Reputation system for distributed sources in non-authoritative identity systems.
+    role: Advisor
+    programme: MEI
+  - year: 2022/23
+    name: Daniel Barbosa Miranda
+    title: Intrusion detection in software-defined networks.
+    role: Advisor
+    programme: MEI
+  - year: 2022/23
+    name: Miguel José Dias Peixoto
+    title: Analysing energy-efficiency of MPI communications in HPC environments.
+    role: Advisor
+    programme: MRSTI
+  - year: 2021/22
+    name: Rui Pedro da Cunha Monteiro
+    title: "Green communications: an environment to support energy-aware networks development."
+    role: Advisor
+    co_advisor: Vítor Fonte
+    programme: MEI
+  - year: 2021/22
+    name: Rafaela Maria Soares da Silva
+    title: "Infrastructure as Code: analysis of misconfiguration and non-compliance problems."
+    role: Advisor
+    co_advisor: Vítor Fonte
+    programme: MEI
+  - year: 2021/22
+    name: Luís Pedro da Silva Vila
+    title: Management systems for access to personal identification attributes.
+    role: Co-advisor
+    programme: MEI
+  - year: 2021/22
+    name: Hugo Fernandes Matias
+    title: Wearable support for Mobile Documents (mDocs) ISO/IEC 18013-5.
+    role: Co-advisor
+    programme: MEI
+  - year: 2021/22
+    name: Ricardo Miguel Martins Guimarães
+    title: Cryptocurrencies and the challenges posed to the Portuguese tax system.
+    role: Co-advisor
+    programme: MDI
+  - year: 2020/21
+    name: Joel Filipe Esteves Gama
+    title: Optimizing packet sampling techniques toward security tasks.
+    role: Advisor
+    programme: MEI
+  - year: 2020/21
+    name: Ricardo Cunha Dias
+    title: Mechanisms for ransomware attacks detection.
+    role: Advisor
+    programme: MEI
+  - year: 2020/21
+    name: Roberto Miguel Castro Cachada
+    title: Software-defined network security using intrusion detection systems.
+    role: Advisor
+    co_advisor: Solange Rito Lima
+    programme: MEI
+  - year: 2020/21
+    name: Diogo Rafael Ferraz Duarte
+    title: Security models for mID systems.
+    role: Advisor
+    programme: MEI
+  - year: 2020/21
+    name: Paulo Gameiro
+    title: mID security monitoring system.
+    role: Advisor
+    programme: MEI
+  - year: 2020/21
+    name: Pedro Miguel Braga Moreira
+    title: Automatic test cases creation based on architectural models.
+    role: Co-advisor
+    co_advisor: António Ribeiro
+    programme: MEI
+  - year: 2020/21
+    name: Filipa Correia Parente
+    title: Mobile ID as a service — generalization of mobile ID applications based on ISO/IEC DIS 18013-5.
+    role: Co-advisor
+    co_advisor: Vítor Fonte
+    programme: MEI
+  - year: 2020/21
+    name: João Emanuel da Silva Mendes
+    title: Assessing the impact of selective network traffic analysis.
+    role: Co-advisor
+    co_advisor: Solange Rito Lima
+    programme: MEI
+  - year: 2019/20
+    name: Lucas Silvestre Cortizo
+    title: The blockchain in the light of data protection in promoting transparency against corruption in public administration.
+    role: Co-advisor
+    co_advisor: Joana Abreu
+    programme: MDI
+  - year: 2018/19
+    name: Paulo Jorge Machado Guedes
+    title: "AntiEgo: Nash equilibrium protocol for ad hoc networks with rational behaviours."
+    role: Advisor
+    co_advisor: Ali Shoker
+    programme: MEI
+  - year: 2018/19
+    name: Bruno Chianca Ferreira
+    title: Energy-aware gossip protocol for wireless sensor networks.
+    role: Advisor
+    programme: MEI
+  - year: 2018/19
+    name: Luis Felipe Miranda Ramos
+    title: The use of distributed registration technologies (DLT) as a tool for copyright protection.
+    role: Advisor
+    co_advisor: Luis Gonçalves
+    programme: MDI
+  - year: 2017/18
+    name: Bruno Machado
+    title: Distributed intrusion detection in SDN.
+    role: Co-advisor
+    co_advisor: Paulo Carvalho
+    programme: MIEI
+  - year: 2017/18
+    name: Ricardo Jorge dos Santos Cabral
+    title: Characterization of application traffic on mobile devices.
+    role: Co-advisor
+    programme: MRSTI
+  - year: 2016/17
+    name: Catarina Pires da Silva
+    title: Using SDN for flexible network measurements.
+    role: Co-advisor
+    programme: MEI
+  - year: 2015/16
+    name: João Marcelo da Silva Cunha
+    title: Scalable classification and monitoring of video streaming services.
+    role: Co-advisor
+    co_advisor: Solange Rito Lima
+    programme: MEI
+  - year: 2015/16
+    name: David Rodrigues Teixeira
+    title: Improving network measurements flexibility through SDN.
+    role: Co-advisor
+    co_advisor: Solange Rito Lima
+    programme: MEI
+  - year: 2014/15
+    name: Pedro Paulo Vicente
+    title: IoT architectures and protocols.
+    role: Advisor
+    programme: MRSTI
+  - year: 2013/14
+    name: Henrique José Veiga Silva
+    title: A distributed management interface for the MORE tool.
+    role: Co-advisor
+    co_advisor: Solange Rito Lima
+    programme: MEI
+
+bsc_concluded:
+  - year: 2016/17
+    name: Matheus Costa Rezende
+    title: An architecture for self-configuring IoT systems.
+    role: Co-advisor
+    co_advisor: Kalil Bispo
+    programme: Bachelor of Information Systems — Universidade Federal de Sergipe
+  - year: 2016/17
+    name: Matheus Mendonça Menezes
+    title: A systematic review on communication and data security for the Internet of Things.
+    role: Co-advisor
+    co_advisor: Kalil Bispo
+    programme: Bachelor of Information Systems — Universidade Federal de Sergipe
+
+researchers:
+  - years: 2024–
+    name: Nikhil Shirsath
+    description: Cybersecurity researcher (MSc level), Technology and Innovation Centres programme
+  - years: 2022–
+    name: Pedro Miguel Moreira
+    description: Full-stack developer (MSc level), projects IDINA and Linha de Saúde 24h
+  - years: "2024"
+    name: João Diogo Duarte
+    description: Cybersecurity researcher (MSc level), Technology and Innovation Centres programme
+  - years: 2020–21
+    name: Ana Nunes Alonso
+    description: Post-doctoral researcher, project IDMobile
+
+grants:
+  - years: 2026–
+    name: Paulo André Alegre Pinto
+    topic: Leveraging cyber threat intelligence for adaptive security monitoring
+  - years: 2024–25
+    name: Pedro Miguel Marques Ferreira
+    topic: Energy-aware network routing within energy flexibility scenarios
+  - years: 2023–24
+    name: Daniel Barbosa Miranda
+    topic: Intrusion detection systems based on P4 devices
+  - years: 2022–23
+    name: Maria Miguel Regueiras
+    topic: Intrusion detection and prevention
+  - years: 2022–23
+    name: Bruno Filipe Miranda Pereira
+    topic: Intrusion detection and prevention
+  - years: 2022–23
+    name: Rui Pedro Oliveira
+    topic: Intrusion detection and prevention
+  - years: 2022–23
+    name: Diogo Ribeiro
+    topic: IDINA project
+  - years: 2022–23
+    name: Tiago Miguel Moreira Bacelar Pereira
+    topic: HASLab access control system
+  - years: 2022–23
+    name: Luís Manuel Fernandes Pereira
+    topic: HASLab access control system
+  - years: 2021–22
+    name: João Pedro Oliveira Meira
+    topic: FLEXCOMM project
+  - years: 2021–22
+    name: Rui Pedro da Cunha Monteiro
+    topic: FLEXCOMM project
+  - years: 2021–22
+    name: Cândido Vale
+    topic: IDINA project
+  - years: 2021–22
+    name: Mateus Ferreira
+    topic: Secure DNS overhead assessment
+  - years: 2020–21
+    name: Filipa Correia Parente
+    topic: IDMobile project
+  - years: 2020–21
+    name: Paulo Miguel Novais Gameiro
+    topic: IDMobile project
+  - years: 2020–21
+    name: Leonardo de Jesus Silva
+    topic: IDMobile project
+  - years: 2020–21
+    name: Luís Miguel Andrade Alves
+    topic: IDMobile project
+  - years: 2020–21
+    name: Rafaela Cristina Riço Rodrigues
+    topic: IDMobile project
+  - years: 2020–21
+    name: Pedro Miguel Ferreira
+    topic: IDMobile project
+  - years: 2020–21
+    name: Pedro Miguel Moreira
+    topic: IDMobile project

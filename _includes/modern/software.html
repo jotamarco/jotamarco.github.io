@@ -1,0 +1,31 @@
+{%- comment -%} Software page. Data: _data/software.yml {%- endcomment -%}
+{%- assign sw = site.data.software -%}
+{%- assign oss = sw | where: "status", "Open source" -%}
+{%- assign withpaper = sw | where_exp: "s", "s.paper" -%}
+{%- assign first = sw | first -%}{%- assign last = sw | last -%}
+<p class="lead">Tools and prototypes developed in my research projects and by the students I supervise.</p>
+
+<div class="stats">
+  <div><b>{{ sw.size }}</b><span>Tools and prototypes</span></div>
+  <div><b>{{ oss.size }}</b><span>Open source</span></div>
+  <div><b>{{ withpaper.size }}</b><span>With a published paper</span></div>
+  <div><b>{{ last.year }}–{{ first.year }}</b><span>Years</span></div>
+</div>
+
+<div class="cards sw">
+  {%- for s in sw %}
+  {%- assign gh = false %}{% if s.link contains "github.com" %}{% assign gh = true %}{% endif %}
+  <div class="card">
+    <span class="org">{{ s.year }}</span>
+    <span class="ttl">{% if gh %}<i class="fa-brands fa-github muted"></i> {% endif %}{{ s.name | escape }}</span>
+    {%- if s.status %}<span><span class="badge{% if s.status == 'Open source' %} role{% endif %}">{{ s.status }}</span></span>{% endif %}
+    <span class="small">{{ s.description | escape }}</span>
+    {%- if s.link or s.paper %}
+    <span class="foot">
+      {%- if s.link %}{% if gh %}<a class="btn" href="{{ s.link }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% else %}<a class="btn" href="{{ s.link }}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a>{% endif %}{% endif %}
+      {%- if s.paper %}<a class="btn" href="{{ '/publications/' | relative_url }}?q={{ s.paper | uri_escape }}"><i class="fa-regular fa-file-lines"></i> Paper</a>{% endif %}
+    </span>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</div>

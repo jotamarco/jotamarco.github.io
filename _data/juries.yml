@@ -1,0 +1,402 @@
+# =====================================================================
+#  JURIES FOR ACADEMIC DEGREES  — shown on /portfolio/ (Service page)
+# =====================================================================
+#  - year: 2027
+#    level: MSc             # MSc | PhD | BSc
+#    role: examiner         # examiner | president
+#    title: Thesis title
+#    candidate: Candidate name
+#    programme: Programme — Institution
+#  Keep entries newest first.
+
+- year: 2026
+  level: MSc
+  role: examiner
+  title: Distributed Computing for Real-Time Computer Vision in Manufacturing
+  candidate: João David Moniz Vieira
+  programme: Master in Mobile Computing — Polytechnic University of Leiria
+
+- year: 2026
+  level: MSc
+  role: examiner
+  title: A Aplicação da Tecnologia Blockchain na Automação do Direito dos Estrangeiros
+  candidate: Joyce Caroline Avelino
+  programme: Master in Law and Informatics — University of Minho
+
+- year: 2026
+  level: MSc
+  role: examiner
+  title: Avaliação e Comparação de Modelos de Aprendizado de Máquina para Predição de Fake News
+  candidate: Lorenzo Machado Gonçalves
+  programme: Sistemas para Internet — Universidade Federal de Santa Maria, Brazil
+
+- year: 2025
+  level: MSc
+  role: examiner
+  title: Evaluation of Distributed Statistical Learning
+  candidate: André Ismael Ferraz Ávila
+  programme: Master in Computer Engineering and Computing — University of Porto
+
+- year: 2025
+  level: MSc
+  role: examiner
+  title: Análise Crítica de Controlos de Segurança da Informação de Aplicações Móveis (Apps)
+  candidate: David Costa Fernandes
+  programme: Master in Information Systems Engineering and Management — University of Minho
+
+- year: 2025
+  level: MSc
+  role: examiner
+  title: Cibercrime e Cyberbullying na perspectiva do direito Português
+  candidate: Carlos Alberto de Miranda Menezes
+  programme: Master in Law and Informatics — University of Minho
+
+- year: 2024
+  level: PhD
+  role: examiner
+  title: Beyond Distributed Transactions through Exactly-once Exchanges
+  candidate: Ziad Kassam
+  programme: MAP Doctoral Program in Computer Science — Universities of Minho, Aveiro and Porto
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: Multi-factor Authentication in U.Porto
+  candidate: Gédsimon Soares Pereira
+  programme: Master in Software Engineering — University of Porto
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: Stateful Security Testing of Web APIs
+  candidate: André Malheiro
+  programme: Master in Informatics and Computing Engineering — University of Porto
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: Um sistema especialista como ferramenta de conscientização e prevenção contra ataques de engenharia social
+  candidate: Waldson Rodrigues Cardoso
+  programme: Master in Computer Science — Universidade Federal de Sergipe
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: "O alargamento das competências da Europol e os desafios emergentes: análise ao Regulamento (UE) 2022/991"
+  candidate: Filipa Maria Coelho Moreira
+  programme: Master in Law and Informatics — University of Minho
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: Os Meios de Vigilância e Controlo no Contrato de Teletrabalho
+  candidate: Mariana Henriques Rocha
+  programme: Master in Law and Informatics — University of Minho
+
+- year: 2024
+  level: MSc
+  role: examiner
+  title: "A Busca Eletrónica como meio de obtenção de prova: uma abordagem da dinâmica prático-processual na investigação criminal"
+  candidate: Tiago Filipe Lopes da Silva
+  programme: Master in Law and Informatics — University of Minho
+
+- year: 2023
+  level: MSc
+  role: examiner
+  title: Serviço VoIP em Asterisk e suas Vulnerabilidades
+  candidate: João Paulo Gonçalves Pedrosa
+  programme: Master in Cybersecurity and Forensic Informatics — Polytechnic Institute of Leiria
+
+- year: 2022
+  level: MSc
+  role: examiner
+  title: Análise de Desempenho do Mobile Blockchain em Arquitetura de Computação de Borda Móvel
+  candidate: Thiago José Sandes Melo
+  programme: Master in Computer Science — Universidade Federal de Sergipe
+
+- year: 2021
+  level: MSc
+  role: examiner
+  title: Security in Software-Defined Networks based on OpenFlow
+  candidate: Rafael Ângelo de Souza Carneiro
+  programme: Master in Information Security — University of Porto
+
+- year: 2021
+  level: MSc
+  role: examiner
+  title: Secure database for cloud environments
+  candidate: João Pedro Barros Mendes
+  programme: Master in Information Security — University of Porto
+
+- year: 2021
+  level: MSc
+  role: examiner
+  title: Proxy-based solution for IoT security and privacy
+  candidate: Rodrigo Monteiro da Cunha Costa Caldas
+  programme: Master in Electrical and Computer Engineering — University of Porto
+
+- year: 2021
+  level: MSc
+  role: examiner
+  title: Online Machine Learning-enabled Network Intrusion Detection
+  candidate: Tiago Miguel Pereira Ribeiro
+  programme: Master in Electrical and Computer Engineering — University of Porto
+
+- year: 2020
+  level: MSc
+  role: examiner
+  title: Adversarial Malware Command and Control Traffic Generation
+  candidate: Carlos António de Sousa Costa Novo
+  programme: Master in Electrical and Computer Engineering — University of Porto
+
+- year: 2020
+  level: MSc
+  role: examiner
+  title: A Two Stage Classifier for DGA Detection
+  candidate: Joaquim Pedro Marques Coelho dos Santos
+  programme: Master in Electrical and Computer Engineering — University of Porto
+
+- year: 2020
+  level: BSc
+  role: examiner
+  title: "Mobile Security Module (MSC): a mobile application to prevent Phishing scams on the Android OS"
+  candidate: Thiago José Sandes Melo
+  programme: Bachelor of Computer Science — Universidade Federal de Sergipe
+
+- year: 2019
+  level: MSc
+  role: examiner
+  title: Detection of TLS Intersections
+  candidate: Filipe Miguel Neves Mendes
+  programme: Master in Information Security — University of Porto
+
+- year: 2019
+  level: MSc
+  role: examiner
+  title: An Architecture for Planning Vehicle Routes in Smart Cities
+  candidate: Itauan Silva Eduão Ferreira
+  programme: Master in Computer Science — Universidade Federal de Sergipe
+
+- year: 2017
+  level: MSc
+  role: examiner
+  title: Towards Building Partial Memberships with Network Sampling
+  candidate: José Pereira
+  programme: Master in Informatics Engineering — University of Minho
+
+- year: 2017
+  level: MSc
+  role: examiner
+  title: Development and optimization of cryptographic compiler backend for ARM platforms
+  candidate: Rui Pedro Araújo Vilas Boas
+  programme: Master in Informatics Engineering — University of Minho
+
+- year: 2017
+  level: MSc
+  role: examiner
+  title: A feasibility study on the use of smartphone sensors for development of Advanced Driver Assistance Systems
+  candidate: Nuno Miguel Teixeira dos Santos
+  programme: Master in Informatics Engineering — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Real Time Physically Based Path Tracing on the Unreal Engine
+  candidate: Cristiano José Gonçalves Neiva Pereira
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Optimising Real-Time Textile Defect Detection Inference on Edge Devices
+  candidate: Rodrigo Ramos Casanova Patrício Ralha
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Chronological classification in distributed RAG systems, with continuous data feed
+  candidate: Gonçalo Lobo Freitas
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Decoding Activity Daily Living and Integrating EEG Insights with AI for Robotic Assistance
+  candidate: Diogo Luís Almeida Costa
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Parkinson’s Disease diagnosis with Machine Learning Techniques
+  candidate: Gonçalo Martins dos Santos
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Injury Prediction and Prevention in Football through Artificial Intelligence
+  candidate: Rui Pedro Guise da Silva
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: "The Role of Large Language Models in Business Workflow Optimization: A Case Study on Event Client Onboarding"
+  candidate: Telmo Leonel Silva Oliveira
+  programme: MEI — University of Minho
+
+- year: 2026
+  level: MSc
+  role: president
+  title: Automatic detection of human values in requirements using artificial intelligence techniques
+  candidate: Gabriel Alexandre Monteiro da Silva
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Comparative Analysis of Adversarial Sample Detection Techniques in Deep Neural Networks
+  candidate: Marcos Paulo Pianissola de Cerqueira
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Comparação de Métodos de Classificação e Análise de Tráfego Cifrado
+  candidate: Miriam Miranda Pinto
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Structural and Functional Analysis of Brain Maps in Alzheimer’s Disease
+  candidate: Luís Alberto Barreiro Araújo
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Aprendizagem (semi) automática de uma Ontologia de Preferências de Comensais
+  candidate: Jéssica Macedo Fernandes
+  programme: MIEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Implementação de Processos de Análise de Similaridade de Imagens Médicas Recorrendo a Bases de Dados Vetoriais
+  candidate: Alexandra Dias Candeias
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Monitorização de uma Arquitetura de Microsserviços
+  candidate: Rui Pedro Chaves Silva Lousada Alves
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: "SID: Secure Integration and Deployment"
+  candidate: Vasco Manuel Araújo Andrade Oliveira
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Improving Interpretability of Protein Deep Learning Models
+  candidate: José Manuel Antunes de Carvalho
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Web-based tool for requirements documentation and classification
+  candidate: Paulo Henrique Pianissola de Cerqueira
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: "Digital Twins in an IoT context: An architecture proposal"
+  candidate: João Bernardo Teixeira Escudeiro
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Sensory Representation of Neural Networks Through Sound and Color
+  candidate: Irenel Lopo da Silva
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Ecossistema European Digital Identity Wallet — subsistema rQES
+  candidate: Mariana Filipa da Silva Rodrigues
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Cybersecurity Certification with OSCAL
+  candidate: Joana Castro e Sousa
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Automação de testes de carga
+  candidate: Francisco Alberto do Fundo Novo
+  programme: MEI — University of Minho
+
+- year: 2025
+  level: MSc
+  role: president
+  title: Development of a machine learning-based application to predict the toxicity of chemical compounds
+  candidate: Diogo da Silva Rebelo
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Smartphone Sensor-based Emotional Maps for Fan Engagement
+  candidate: Laura Nunes Rodrigues
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Automatic Network Design
+  candidate: João Silva Torres
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Using Artificial Intelligence to Improve Employees Engagement Metrics
+  candidate: Diogo Paulo Lopes de Vasconcelos
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Processos de arquivo e exploração de informação usando Data Lake e/ou Azure Fabric e PowerBI
+  candidate: João Paulo Sousa Mendes
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Multi-task LiDAR based Deep Learning models – Semantic Segmentation in Bird’s Eye View (BeV)
+  candidate: João Pedro Fontes Delgado
+  programme: MEI — University of Minho
+
+- year: 2024
+  level: MSc
+  role: president
+  title: Reconhecimento, Classificação e Pesquisa de Imagens em Plataformas Nuvem
+  candidate: Francisco Reis Izquierdo
+  programme: MEI — University of Minho

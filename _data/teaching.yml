@@ -1,0 +1,134 @@
+# =====================================================================
+#  TEACHING  — shown on /teaching/
+# =====================================================================
+#  current:   programmes you teach in now, each with its courses
+#             (coordinator: true adds a "Coordinator" badge; link and note are optional)
+#  roles:     academic roles (years can be left empty)
+#  previous:  courses taught in the past (newest first)
+#  training:  professional training and outreach courses
+
+current:
+  - programme: Master in Cybersecurity
+    level: MSc
+    courses:
+    - name: Data Security
+      link: https://mcs.di.uminho.pt/courses/ds/
+      coordinator: true
+      note: Also optional in the MSc in Advanced Computing and MSc in Mathematics and Computation
+    - name: Cybersecurity Laboratories
+      link: https://mcs.di.uminho.pt/courses/cl1/
+      coordinator: true
+  - programme: Master in Informatics Engineering
+    level: MSc
+    courses:
+    - name: Computer Systems Security
+    - name: Project in Cryptography and Information Security
+  - programme: Master in Computer Networking
+    level: MSc
+    courses:
+    - name: Applied Cryptography
+      link: https://mcn.di.uminho.pt/courses/en/ac/
+      coordinator: true
+  - programme: Master in Law and Informatics
+    level: MSc
+    courses:
+    - name: Privacy and Personal Data Protection
+      link: https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4523&catId=14
+      coordinator: true
+      note: Coordinating the informatics component
+  - programme: Bachelor in Telecommunications and Informatics Engineering
+    level: BSc
+    courses:
+    - name: Cryptography and Network Security
+      link: https://www.uminho.pt/EN/education/educational-offer/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4706&catId=14
+      coordinator: true
+  - programme: Bachelor in Informatics Engineering
+    level: BSc
+    courses:
+    - name: Security of Information Systems
+      link: https://lei.di.uminho.pt/courses/ssi.pt/
+  - programme: Bachelor in Applied Languages
+    level: BSc
+    courses:
+    - name: Specialized Translation 2
+
+roles:
+  - years: 2024–
+    role: Deputy Director
+    detail: Bachelor and Master in Informatics Engineering
+  - role: Programme design
+    detail: Part of the teams that designed the Master in Cybersecurity, the Master in Computer Networking and the Master in Advanced Computing, and the specialisation profile in Cryptography and Information Security of the Master in Informatics Engineering
+  - role: Scientific coordinator
+    detail: The Department of Informatics’ competitive CTF team
+
+previous:
+  - course: Distributed Data Processing Environments
+    programme: Bachelor in Data Science
+    years: "2025"
+  - course: Cryptography, Electronic Identification and Documents
+    programme: Master in Law and Informatics
+    years: 2024–2025
+    coordinator: true
+  - course: Security Technology
+    programme: Master in Informatics Engineering · Integrated Master in Informatics Engineering · Master in Mathematics and Computation
+    years: 2017–2024
+  - course: Security of Information Systems (previous syllabus)
+    programme: Master / Integrated Master in Informatics Engineering
+    years: 2017–2024
+  - course: Informatics Laboratories III
+    programme: Integrated Master in Informatics Engineering
+    years: 2021–2024
+  - course: Operating Systems
+    programme: Integrated Master in Informatics Engineering · Bachelor in Computer Science
+    years: 2018–2021
+  - course: Cybercrime
+    programme: Master in Law and Informatics
+    years: 2018–2019
+  - course: Computer Networks
+    programme: Integrated Master / Bachelor in Informatics Engineering
+    years: 2014–2018
+  - course: Communications and Networks
+    programme: Integrated Master in Engineering Physics
+    years: 2016–2017
+  - course: Traffic Modelling and Characterisation
+    programme: Master in Engineering of Computer Networks and Telematic Services
+    years: 2015–2017
+  - course: Electronic Data Transfer and Telecommunications Services
+    programme: Master in Law and Informatics
+    years: 2015–2017
+  - course: Network Management
+    programme: Integrated Master in Informatics Engineering
+    years: "2016"
+  - course: Computer Communications
+    programme: Integrated Master in Informatics Engineering
+    years: "2015"
+  - course: Communications Systems and Networks
+    programme: Bachelor in Computer Science
+    years: 2014–2015
+  - course: Imperative Programming
+    programme: Bachelor in Informatics Engineering · Bachelor in Computer Science
+    years: 2014–2015
+
+training:
+  - year: 2026
+    title: "Cybersecurity: fundamentals, best practices, and the challenges of AI"
+    audience: Public servants of Guimarães Municipal Council — AI4PA programme, UNU-EGOV
+  - year: 2026
+    title: O impacto da IA na segurança e privacidade de dados
+    audience: Public servants of Matosinhos Municipal Council — AI4PA programme, UNU-EGOV
+  - year: 2026
+    title: The AI Driver’s Licence for Government Employees
+    audience: Content on data protection, privacy and security for AI use — UNU-EGOV with the Government of Pakistan
+  - year: 2025
+    title: Cybersecurity Engineering
+    audience: Advanced training — University of Minho Postgraduate Alliance
+    link: https://www.alianca.uminho.pt/pt/Portfolio/TransicaoDigital/Paginas/Ciberseguranca.aspx
+  - year: 2023
+    title: "Cybersecurity: Concepts & Best Practices"
+    audience: Doctoral College — School of Engineering, University of Minho
+  - year: 2021
+    title: "eTransformation: eID & AI, Data and Emerging Technologies"
+    audience: Capacity building programme — United Nations University
+  - year: 2017
+    title: Information Security · Open Data · IT Project Management · EGOV Strategic Planning
+    audience: Courses for public servants of PALOP and East-Timor (PASP PALOP-TL)

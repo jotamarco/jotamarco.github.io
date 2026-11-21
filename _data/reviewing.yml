@@ -1,0 +1,106 @@
+# =====================================================================
+#  REVIEWING  — shown on /portfolio/ (Service page)
+# =====================================================================
+#  journals:  reviewer for journals (quartile is optional)
+#  tpc:       technical program committees; list years newest first.
+#             Years in sub_reviewer are shown with a dashed border.
+
+journals:
+  - name: IEEE Communications Magazine
+    years: "2024–present"
+    quartile: Q1
+  - name: Computers & Security (Elsevier)
+    years: "2026–present"
+    quartile: Q1
+  - name: Journal of Cybersecurity (Oxford University Press)
+    years: "2026–present"
+    quartile: Q1
+  - name: "Digital Threats: Research and Practice (ACM)"
+    years: "2026–present"
+    quartile: Q1
+  - name: Computer Networks (Elsevier)
+    years: "2026–present"
+    quartile: Q1
+  - name: IEEE Transactions on Network and Service Management
+    years: "2026–present"
+    quartile: Q1
+  - name: Government Information Quarterly (Elsevier)
+    years: "2026–present"
+    quartile: Q1
+  - name: International Journal of Communication Systems (Wiley)
+    years: "2018–present"
+    quartile: Q2
+  - name: Journal of Internet Services and Applications (SBC)
+    years: "2026–present"
+    quartile: Q3
+  - name: International Journal of Critical Computer-Based Systems
+    years: "2023"
+    quartile: Q3
+  - name: Transactions on Emerging Telecommunications Technologies (Wiley)
+    years: "2021"
+    quartile: Q2
+  - name: Integration, the VLSI Journal (Elsevier)
+    years: "2021"
+    quartile: Q3
+  - name: Future Generation Computer Systems (Elsevier)
+    years: "2019"
+
+tpc:
+  - acronym: ICEGOV
+    name: International Conference on Theory and Practice of Electronic Governance
+    years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
+  - acronym: HPSR
+    name: International Conference on High-Performance Switching and Routing
+    years: [2025, 2023, 2022, 2021]
+  - acronym: ISCC
+    name: IEEE Symposium on Computers and Communications
+    years: [2019, 2018, 2016]
+    sub_reviewer: [2023]
+  - acronym: APNOMS
+    name: Asia-Pacific Network Operations and Management Symposium
+    years: [2021, 2017, 2016]
+  - acronym: SoftCOM
+    name: International Conference on Software, Telecommunications and Computer Networks
+    years: [2026, 2025]
+  - acronym: INForum
+    name: Track on Security of Computer and Communication Systems (SSCC)
+    years: [2026, 2025]
+  - acronym: SRDS
+    name: International Symposium on Reliable Distributed Systems
+    years: [2024, 2018]
+  - acronym: TMA
+    name: Network Traffic Measurement and Analysis Conference
+    years: [2022, 2018]
+  - acronym: ICDS
+    name: International Conference on Digital Society and eGovernments
+    years: [2019, 2018]
+  - acronym: NEW2AN
+    name: Int. Conf. on Next Generation Wired/Wireless Advanced Networks and Systems
+    years: [2017, 2016]
+  - acronym: ICDCS
+    name: IEEE International Conference on Distributed Computing Systems
+    years: [2025]
+  - acronym: DSN
+    name: IEEE/IFIP International Conference on Dependable Systems and Networks
+    sub_reviewer: [2023]
+  - acronym: ENSD
+    name: Encontro Nacional de Sistemas Distribuídos
+    years: [2022]
+  - acronym: HPBD
+    name: Workshop on High-Performance and Reliable Big Data
+    years: [2021]
+  - acronym: SEC
+    name: International Conference on ICT Systems Security and Privacy Protection
+    years: [2020]
+  - acronym: WNM
+    name: IEEE Workshop on Network Measurements
+    years: [2016]
+  - acronym: EATIS
+    name: Euro American Conference on Telematics and Information Systems
+    years: [2016]
+  - acronym: ICMASCTS
+    name: Int. Conf. on Modeling, Analysis and Simulation of Computer and Telecommunications Systems
+    years: [2014]
+  - acronym: ICSPT
+    name: International Conference on Signal Processing and Telecommunication
+    years: [2013]

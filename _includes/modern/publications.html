@@ -1,0 +1,79 @@
+{%- comment -%}
+  Publications page. Data: _data/publications.yml, topics from _data/profile.yml.
+  The full list is rendered here; assets/js/modern.js adds search, filters and the BibTeX button.
+{%- endcomment -%}
+{%- assign pr = site.data.profile -%}
+{%- assign pubs = site.data.publications -%}
+{%- assign papers = pubs | where_exp: "p", "p.type != 'report'" -%}
+{%- assign reports_n = pubs.size | minus: papers.size -%}
+{%- assign groups = pubs | group_by: "year" | sort: "name" | reverse -%}
+{%- assign lb = "{" -%}{%- assign rb = "}" -%}{%- assign lb2 = lb | append: lb -%}{%- assign rb2 = rb | append: rb -%}
+{%- capture me %}<b>{{ pr.author_name }}</b>{% endcapture -%}
+{%- assign types = "journal,conference,workshop,preprint,report" | split: "," -%}
+{%- assign type_labels = "Journals,Conferences,Workshops,Preprints,Reports" | split: "," -%}
+
+<div class="toolbar">
+  <input class="search" id="pub-q" type="search" placeholder="Search title, author, or venue (e.g. sampling, ICEGOV, Ribeiro)…" aria-label="Search publications">
+  <div class="filters">
+    <div><span class="lbl">Type</span><button class="chip on" data-type="all">All<span class="n">{{ pubs.size }}</span></button>
+      {%- for t in types %}{% assign tl = pubs | where: "type", t %}{% if tl.size > 0 %}<button class="chip" data-type="{{ t }}">{{ type_labels[forloop.index0] }}<span class="n">{{ tl.size }}</span></button>{% endif %}{% endfor %}</div>
+  </div>
+  <div class="filters">
+    <div><span class="lbl">Topic</span><button class="chip on" data-topic="all">All</button>
+      {%- for t in pr.topics %}<button class="chip" data-topic="{{ t[0] }}">{{ t[1] }}</button>{% endfor %}</div>
+  </div>
+  <div class="years"><span class="lbl">Jump to</span>{% for g in groups %}<a href="#y{{ g.name }}" data-jump="{{ g.name }}">{{ g.name }}</a>{% endfor %}</div>
+  <p class="result-n" id="pub-n" data-default="{{ papers.size }} publications and {{ reports_n }} technical reports">{{ papers.size }} publications and {{ reports_n }} technical reports</p>
+</div>
+
+<div id="publist">
+{%- for g in groups %}
+<section class="yeargroup" data-year="{{ g.name }}">
+  <h2 id="y{{ g.name }}">{{ g.name }} <span class="count">{{ g.items.size }} {% if g.items.size > 1 %}items{% else %}item{% endif %}</span></h2>
+  <ul class="pubs">
+  {%- for p in g.items %}
+    {%- comment %} BibTeX entry copied by the "BibTeX" button {% endcomment %}
+    {%- assign first_author = p.authors | split: "," | first | split: " and " | first | split: " " | last | slugify: "latin" | remove: "-" %}
+    {%- assign key_word = "" %}{% assign words = p.title | split: " " %}
+    {%- for w in words %}{% assign sw = w | slugify: "latin" | remove: "-" %}{% if sw.size > 3 %}{% assign key_word = sw %}{% break %}{% endif %}{% endfor %}
+    {%- case p.type %}
+      {%- when "journal" %}{% assign btype = "article" %}{% assign vfield = "journal" %}
+      {%- when "report" %}{% assign btype = "techreport" %}{% assign vfield = "institution" %}
+      {%- when "preprint" %}{% assign btype = "misc" %}{% assign vfield = "howpublished" %}
+      {%- else %}{% assign btype = "inproceedings" %}{% assign vfield = "booktitle" %}
+    {%- endcase %}
+    {%- if p.type == "report" %}{% assign bvenue = p.venue | split: ". " | first %}{% else %}{% assign bvenue = p.venue %}{% endif %}{% assign bvenue = bvenue | replace: "&", "\\&" %}
+    {%- if p.bibtex_author %}{% assign bauthors = p.bibtex_author %}{% elsif p.authors contains "—" or p.authors contains "(" %}{% capture bauthors %}{{ lb }}{{ p.authors }}{{ rb }}{% endcapture %}{% else %}{% assign bauthors = p.authors | replace: ", ", " and " %}{% endif %}
+    {%- capture cite %}@{{ btype }}{{ lb }}{% if p.bibtex_key %}{{ p.bibtex_key }}{% else %}{{ first_author }}{{ p.year }}{{ key_word }}{% endif %},
+  author = {{ lb }}{{ bauthors }}{{ rb }},
+  title = {{ lb2 }}{{ p.title }}{{ rb2 }},
+  {{ vfield }} = {{ lb }}{{ bvenue }}{{ rb }},
+  year = {{ lb }}{{ p.year }}{{ rb }}{% if p.doi %},
+  doi = {{ lb }}{{ p.doi }}{{ rb }}{% elsif p.url %},
+  url = {{ lb }}{{ p.url }}{{ rb }}{% endif %}{% if p.status %},
+  note = {{ lb }}{{ p.status }}{{ rb }}{% endif %}
+}{% endcapture %}
+    <li class="pub" data-type="{{ p.type }}" data-topics="{{ p.topics | join: ' ' }}">
+      <div class="t">{{ p.title | escape }}</div>
+      <div class="a">{{ p.authors | escape | replace: pr.author_name, me }}</div>
+      <div class="meta"><span class="badge {{ p.type }}">{{ p.type }}</span>
+        {%- if p.status %}<span class="badge status">{{ p.status }}</span>{% endif %}
+        {%- if p.rank %}<span class="badge rank" title="SCImago quartile">{{ p.rank }}</span>{% endif %}
+        {%- if p.award %}<span class="badge award"><i class="fa-solid fa-award"></i> {{ p.award }}</span>{% endif %}
+        <span class="v">{{ p.venue | escape }}</span></div>
+      <div class="acts">
+        {%- if p.pdf %}<a class="btn" href="{{ '/Papers/' | append: p.pdf | uri_escape | relative_url }}" target="_blank"><i class="fa-regular fa-file-pdf"></i> PDF</a>{% endif %}
+        {%- if p.author_copy %}<a class="btn" href="{{ p.author_copy }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i> Author’s copy</a>{% endif %}
+        {%- if p.preprint %}<a class="btn" href="{{ p.preprint }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-lines"></i> Preprint</a>{% endif %}
+        {%- if p.doi %}<a class="btn" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" title="{% if p.open_access %}Open access{% else %}Publisher page{% endif %}"><i class="fa-solid {% if p.open_access %}fa-lock-open{% else %}fa-link{% endif %}"></i> DOI</a>
+        {%- elsif p.url %}<a class="btn" href="{{ p.url }}" target="_blank" rel="noopener"><i class="fa-solid {% if p.open_access %}fa-lock-open{% else %}fa-link{% endif %}"></i> {% if p.type == "report" %}Report{% else %}Link{% endif %}</a>{% endif %}
+        {%- if p.code %}<a class="btn" href="{{ p.code }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>{% endif %}
+        <button class="btn" type="button" title="Copy BibTeX" data-cite="{{ cite | strip | escape }}"><i class="fa-solid fa-quote-right"></i> BibTeX</button>
+      </div>
+    </li>
+  {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
+</div>
+<div class="empty" id="pub-empty" hidden>No publications match. <a href="#" id="pub-reset">Clear filters</a></div>

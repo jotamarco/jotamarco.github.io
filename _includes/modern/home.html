@@ -1,0 +1,62 @@
+{%- comment -%} Home page sections. Data: _data/profile.yml, news.yml, awards.yml, teams.yml, publications.yml, supervision.yml, projects.yml, talks.yml {%- endcomment -%}
+{%- assign pr = site.data.profile -%}
+{%- assign papers = site.data.publications | where_exp: "p", "p.type != 'report'" -%}
+{%- assign proj_n = site.data.projects.ongoing.size | plus: site.data.projects.previous.size -%}
+<div class="stats">
+  <a href="{{ '/publications/' | relative_url }}"><b>{{ papers.size }}</b><span>Publications</span></a>
+  <a href="{{ '/supervision/' | relative_url }}"><b>{{ site.data.supervision.phd.size }}</b><span>PhD students</span></a>
+  <a href="{{ '/supervision/' | relative_url }}"><b>{{ site.data.supervision.msc_concluded.size }}</b><span>MSc theses concluded</span></a>
+  <a href="{{ '/projetos/' | relative_url }}"><b>{{ proj_n }}</b><span>Research projects</span></a>
+  <a href="{{ '/portfolio/#s-talks' | relative_url }}"><b>{{ site.data.talks.size }}</b><span>Invited talks</span></a>
+</div>
+
+<h2>Current positions</h2>
+<div class="cards">
+  {%- for p in pr.positions %}
+  <div class="card"><span class="org">{{ p.org }} · since {{ p.since }}</span><span class="ttl">{{ p.title }}</span><span class="small muted">{{ p.description }}</span>{% if p.link %}<span class="foot"><a class="btn" href="{{ p.link }}" target="_blank" rel="noopener">Profile <i class="fa-solid fa-arrow-up-right-from-square ext"></i></a></span>{% endif %}</div>
+  {%- endfor %}
+</div>
+
+<h2>Latest news</h2>
+<ul class="news">
+  {%- for n in site.data.news %}
+  {%- assign first = n.link | slice: 0 %}
+  <li><span class="when">{{ n.when }}<br><span class="badge">{{ n.kind }}</span></span><span class="what">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    {%- if n.link %} {% if first == "/" %}<a href="{{ n.link | relative_url }}">{{ n.link_text | default: "More" }} →</a>{% else %}<a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.link_text | default: "More" }} <i class="fa-solid fa-arrow-up-right-from-square ext"></i></a>{% endif %}{% endif %}</span></li>
+  {%- endfor %}
+</ul>
+
+<div class="two">
+  <div>
+    <h2>Research interests</h2>
+    <div>
+      {%- for t in pr.topics %}
+      {%- assign key = t[0] %}
+      {%- assign tp = papers | where_exp: "p", "p.topics contains key" %}
+      <a class="chip" href="{{ '/publications/' | relative_url }}?topic={{ key }}">{{ t[1] }} <span class="n">{{ tp.size }}</span></a>
+      {%- endfor %}
+    </div>
+    <h2>Research teams</h2>
+    <ul class="tl">
+      {%- for t in site.data.teams %}
+      <li><b>{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">{{ t.name }}</a>{% else %}{{ t.name }}{% endif %}</b> <span class="yr">{{ t.years }}</span><br><span class="small muted">{{ t.full_name }}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="small"><a href="{{ '/projetos/' | relative_url }}">About the teams →</a></p>
+  </div>
+  <div>
+    <h2>Education</h2>
+    <ul class="tl">
+      {%- for e in pr.education %}
+      <li><span class="yr">{{ e.year }}</span><br><b>{{ e.degree }}</b><br><span class="small muted">{{ e.institution }}{% if e.thesis %} — <i>{{ e.thesis }}</i>{% endif %}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</div>
+
+<h2>Awards and distinctions</h2>
+<ul class="people">
+  {%- for a in site.data.awards %}
+  <li><span class="y">{{ a.year }}</span><div><span class="nm">{% if a.link %}<a href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title | escape }}</a>{% else %}{{ a.title | escape }}{% endif %}</span><div class="co">{{ a.detail | escape }}</div></div></li>
+  {%- endfor %}
+</ul>

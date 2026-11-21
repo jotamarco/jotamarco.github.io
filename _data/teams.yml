@@ -1,0 +1,22 @@
+# =====================================================================
+#  RESEARCH TEAMS  — shown on the home page (short) and on /projetos/ (full)
+# =====================================================================
+
+- name: DISSECT
+  full_name: Digital Infrastructure Security Assessment
+  years: "2023–present"
+  role: Founder & leader
+  link: https://dissect-project.org
+  description: Assesses and strengthens the security posture of public-facing online services, and develops lightweight network- and host-based intrusion detection, vulnerability management and asset monitoring. Responsible for the cybersecurity dimension of the UN E-Government Survey, LOSI, HOSPI and IPIC.
+
+- name: Trusted ID
+  full_name: Trusted and interoperable digital identity
+  years: "2019–present"
+  role: Leader
+  description: Reputation systems and data fusion for non-authoritative identity, and privacy-preserving credential verification. Home of IDINA, IDMobile and the Linha de Saúde 24h.
+
+- name: Green Communications
+  full_name: Energy-efficient networking
+  years: 2019–2024
+  role: Leader
+  description: Strategies to reduce the energy impact of communication networks (SMARTNET, FLEXCOMM). Later restructured to focus on data and infrastructure security.

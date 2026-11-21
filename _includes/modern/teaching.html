@@ -1,0 +1,36 @@
+{%- comment -%} Teaching page. Data: _data/teaching.yml {%- endcomment -%}
+{%- assign t = site.data.teaching -%}
+<h2>Current courses</h2>
+<div class="cards">
+  {%- for p in t.current %}
+  <div class="card"><span class="org">{{ p.level }} · {{ p.programme | remove_first: "Master in " | remove_first: "Bachelor in " }}</span>
+    {%- for c in p.courses %}
+    <div><span class="ttl">{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener" style="color:inherit">{{ c.name | escape }} <i class="fa-solid fa-arrow-up-right-from-square ext"></i></a>{% else %}{{ c.name | escape }}{% endif %}</span>{% if c.coordinator %} <span class="badge role">Coordinator</span>{% endif %}{% if c.note %}<div class="small muted">{{ c.note | escape }}</div>{% endif %}</div>
+    {%- endfor %}
+  </div>
+  {%- endfor %}
+</div>
+
+<h2>Academic roles</h2>
+<ul class="people">
+  {%- for r in t.roles %}
+  <li><span class="y">{{ r.years }}</span><div><span class="nm">{{ r.role }}</span> — {{ r.detail | escape }}</div></li>
+  {%- endfor %}
+</ul>
+
+<h2>Previous courses <span class="count">{{ t.previous.size }} courses</span></h2>
+<div class="scrollx"><table class="tbl">
+  <thead><tr><th>Course</th><th>Programme</th><th>Years</th></tr></thead>
+  <tbody>
+  {%- for r in t.previous %}
+    <tr><td><b style="font-weight:600;color:var(--dark-gray)">{{ r.course | escape }}</b>{% if r.coordinator %} <span class="badge role">Coordinator</span>{% endif %}</td><td class="muted">{{ r.programme | escape }}</td><td class="yr">{{ r.years }}</td></tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
+<h2>Professional training and outreach courses</h2>
+<ul class="people">
+  {%- for c in t.training %}
+  <li><span class="y">{{ c.year }}</span><div><span class="nm">{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title | escape }}</a>{% else %}{{ c.title | escape }}{% endif %}</span><div class="co">{{ c.audience | escape }}</div></div></li>
+  {%- endfor %}
+</ul>

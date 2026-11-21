@@ -1,0 +1,78 @@
+# =====================================================================
+#  PROFILE  — sidebar, home page positions, education and research topics
+# =====================================================================
+
+name: João Marco Silva
+headline: Assistant Professor
+location: Universidade do Minho, Portugal
+email_display: joaomarco at di.uminho.pt   # shown as text (not a mailto link) to limit spam
+avatar: /images/eu_circular.png
+
+# How your name appears in author lists; it is highlighted on the Publications page.
+author_name: J.M.C. Silva
+
+# Sidebar links (icon: a Font Awesome or Academicons class)
+links:
+  - label: Google Scholar
+    icon: ai ai-google-scholar
+    url: https://scholar.google.com/citations?user=bNkxYW0AAAAJ&hl=en
+  - label: ORCID
+    icon: ai ai-orcid
+    url: https://orcid.org/0000-0003-4621-5288
+  - label: dblp
+    icon: ai ai-dblp
+    url: https://dblp.org/pid/72/11037.html
+  - label: Scopus
+    icon: ai ai-scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=57193559044
+  - label: Web of Science
+    icon: ai ai-clarivate
+    url: https://publons.com/researcher/2227474/joao-marco-c-silva/
+  - label: ResearchGate
+    icon: ai ai-researchgate
+    url: https://www.researchgate.net/profile/Joao-Marco-Silva
+  - label: Ciência Vitae
+    icon: fa-solid fa-id-card
+    url: https://www.cienciavitae.pt/4E1A-DA9C-2749
+
+# Current positions (home page cards)
+positions:
+  - org: University of Minho
+    since: 2023
+    title: Assistant Professor
+    description: Department of Informatics, School of Engineering. Deputy Director of the BSc and MSc in Informatics Engineering (since 2024).
+    link: https://www.di.uminho.pt/~jno/sitedi/nm_6687.html
+  - org: INESC TEC
+    since: 2023
+    title: Integrated Researcher
+    description: High-Assurance Software Laboratory (HASLab)
+    link: https://www.inesctec.pt/en/people/joao-marco
+  - org: UNU-EGOV
+    since: 2024
+    title: Adjunct Assistant Professor
+    description: United Nations University — Emerging Technologies and Innovation in Digital Governance
+    link: https://unu.edu/egov/about/expert/joao-marco-silva
+
+# Education (home page)
+education:
+  - year: 2016
+    degree: PhD in Informatics
+    institution: University of Minho
+    thesis: A Modular Traffic Sampling Architecture for Flexible Network Measurements
+  - year: 2011
+    degree: MSc in Networks and Communication Services
+    institution: University of Minho
+    thesis: A Multi-adaptive Network Traffic Sampling Technique
+  - year: 2009
+    degree: BSc in Computer Science
+    institution: Federal University of Sergipe, Brazil
+    thesis: A Methodology for Performance Analysis of Multimedia Systems in Networks using OMG SysML
+
+# Research topics: the key (left) is used in the "topics" field of each publication;
+# the label (right) is shown on the home page and as a filter on the Publications page.
+topics:
+  ids: Intrusion detection & network security
+  pub: Security of public digital services
+  id: Trusted digital identity
+  energy: Energy-efficient communications
+  meas: Traffic measurement & programmable networks

@@ -1,0 +1,39 @@
+# =====================================================================
+#  AWARDS AND DISTINCTIONS  — shown on the home page
+# =====================================================================
+#  - year: 2027
+#    title: Name of the award
+#    detail: Who gave it and why
+#    link: https://…    # optional
+
+- year: 2026
+  title: Academic Merit Award
+  detail: School of Engineering, University of Minho — top 10% of performers in the department
+  link: https://www.engium.uminho.pt/diadaescola2026/
+
+- year: 2021
+  title: First place, IN3+ Innovation Award
+  detail: Project IDINA — Inclusive Non-Authoritative Digital Identity (€600k)
+  link: https://premioin3mais.pt/cerimonia-entrega-de-premios
+
+- year: 2021
+  title: Extraordinary Prize, INESC TEC / HASLab
+  detail: For outstanding contribution to digital identity systems research
+  link: https://bip.inesctec.pt/en/especiaisdecorrida/joao-marco-silva-vitor-francisco-fonte-and-antonio-luis-sousa-haslab/
+
+- year: 2018
+  title: FCT Scientific Employment Stimulus
+  detail: Six-year individual research contract (2018–2023), under 10% success rate
+
+- year: 2014
+  title: Best Local Student Paper
+  detail: "19th IEEE Symposium on Computers and Communications (ISCC 2014)"
+  link: http://iscc2014.ieee-iscc.org/2014/BestPaperAward/
+
+- year: 2013
+  title: Best paper candidate
+  detail: IEEE INFOCOM 2013 doctoral consortium (one of three)
+
+- year: 2008
+  title: Best Scientific Initiation Paper
+  detail: VIII ERBASE, Brazilian Computer Society

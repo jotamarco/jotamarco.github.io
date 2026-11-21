@@ -1,0 +1,588 @@
+# =====================================================================
+#  PUBLICATIONS  — shown on /publications/ (and counted on the home page)
+# =====================================================================
+#  Add a new paper by copying this block to the TOP of the list:
+#
+#  - year: 2027
+#    type: conference        # journal | conference | workshop | preprint | report
+#    topics: [ids]           # keys from topics in _data/profile.yml (one or more)
+#    status: Accepted        # optional: Accepted | In press
+#    rank: Q1                # optional: SCImago quartile for journals
+#    award: Best paper award # optional
+#    title: Title of the paper
+#    authors: A. Author, J.M.C. Silva   # your name is highlighted automatically
+#    venue: Name of the conference (ACRONYM 2027), City
+#    pdf: 2027-ACRONYM.pdf   # optional: file name inside the Papers/ folder
+#    author_copy: https://…  # optional: external link to an author's copy
+#    preprint: https://…     # optional
+#    doi: 10.1109/XXXX.2027.1234567   # optional, without https://doi.org/
+#    url: https://…          # optional: publisher page when there is no DOI
+#    open_access: true       # optional: shows an open-lock icon
+#    code: https://github.com/…   # optional
+#    bibtex_key: silva2027title     # optional: BibTeX key (default: surname + year + first word)
+#    bibtex_author: "{Organisation}"  # optional: author for BibTeX, when "authors" is descriptive
+#
+#  Text with a colon followed by a space (": ") must be wrapped in "double quotes".
+#  The list order inside a year is the order shown on the page.
+
+- year: 2026
+  type: journal
+  topics: [id]
+  rank: Q1
+  title: "The Path to an Inclusive Identity: A Non-Authoritative Approach"
+  authors: D. Ribeiro and J.M.C. Silva
+  venue: IEEE Access, vol. 14, pp. 112282–112305, 2026
+  pdf: "2026-Access.pdf"
+  doi: "10.1109/ACCESS.2026.3716120"
+  open_access: true
+
+- year: 2026
+  type: conference
+  topics: [energy]
+  status: Accepted
+  title: On the Quest for Energy Efficient UDP Sockets
+  authors: R. Monteiro and J.M.C. Silva
+  venue: "22nd International Conference on Network and Service Management (CNSM 2026), Madrid"
+  pdf: "2026-CNSM.pdf"
+
+- year: 2026
+  type: conference
+  topics: [meas]
+  status: Accepted
+  title: "P4Log: High-Throughput Fault-Tolerant Log Replication Through In-Network Coordination"
+  authors: L. Pereira, J.M.C. Silva, A. Nunes Alonso, J.O. Pereira
+  venue: "24th IEEE International Symposium on Network Computing and Applications (NCA 2026), Italy"
+  author_copy: https://drive.google.com/file/d/1bYAQqwDCdaMgBXDPRF4B__pJNhHV11GR/view?usp=drive_link
+
+- year: 2026
+  type: workshop
+  topics: [ids]
+  title: "It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection"
+  authors: B. Pereira, B. Cepa, C. Brito, J.M.C. Silva, V. Rimmer, J. Paulo, T. Esteves
+  venue: IEEE European Symposium on Security and Privacy Workshops (EuroS&PW 2026)
+  pdf: "2026-WORMA.pdf"
+  doi: "10.1109/EuroSPW72509.2026.00032"
+
+- year: 2026
+  type: conference
+  topics: [ids]
+  title: "ICARUS: Intelligence-driven Contextual Assessment of Risks in Unseen Scenarios"
+  authors: R. Oliveira and J.M.C. Silva
+  venue: International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2026), Split, pp. 1–6
+  pdf: "2026-SoftCOM.pdf"
+  doi: "10.23919/softcom70073.2026.11762227"
+
+- year: 2026
+  type: conference
+  topics: [id]
+  status: Accepted
+  title: Reputation-Aware Truth Discovery for Robust Evidence Fusion in RAG Pipelines
+  authors: D. Ribeiro and J.M.C. Silva
+  venue: "24th International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS 2026), Naples"
+  pdf: "2026-PAAMS.pdf"
+
+- year: 2025
+  type: journal
+  topics: [pub]
+  rank: Q1
+  title: "Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications"
+  authors: D. Ribeiro, V. Fonte, L.F. Ramos, J.M.C. Silva
+  venue: Government Information Quarterly, Elsevier, 2025
+  pdf: "2025-GIQ.pdf"
+  doi: "10.1016/j.giq.2025.102031"
+  open_access: true
+
+- year: 2025
+  type: conference
+  topics: [ids, meas]
+  title: "p4SD: A Lightweight Port Scan Detection for Programmable Networks"
+  authors: D. Miranda, R. Monteiro, J.M.C. Silva
+  venue: International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2025), Split
+  pdf: "2025-softcom.pdf"
+  doi: "10.23919/SoftCOM66362.2025.11197439"
+
+- year: 2025
+  type: conference
+  topics: [ids]
+  title: Anomaly-Based Technique To Detect Social Engineering Attacks Using Online Learning
+  authors: A. Ribeiro and J.M.C. Silva
+  venue: World Conference on Information Systems and Technologies (WorldCIST 2025)
+  doi: "10.1007/978-3-032-01234-0_21"
+
+- year: 2024
+  type: conference
+  topics: [pub]
+  title: A worldwide overview on the information security posture of online public services
+  authors: J.M.C. Silva, D. Ribeiro, L.F. Ramos, V. Fonte
+  venue: "57th Hawaii International Conference on System Sciences (HICSS 2024)"
+  pdf: "2024-HICSS.pdf"
+  url: https://hdl.handle.net/10125/106615
+  open_access: true
+
+- year: 2024
+  type: conference
+  topics: [ids]
+  title: "Expert Systems in Information Security: A Comprehensive Exploration of Awareness Strategies Against Social Engineering Attacks"
+  authors: W.R. Cardoso, A.D. Ribeiro, J.M.C. Silva
+  venue: World Conference on Information Systems and Technologies (WorldCIST 2024), Funchal
+  pdf: "2024-WorldCIST.pdf"
+  doi: "10.1007/978-3-031-60218-4_4"
+
+- year: 2024
+  type: conference
+  topics: [ids]
+  title: Classification-Based Technique to Detect Social Engineering Attacks Using Continuous Data Stream Machine Learning Algorithms
+  authors: A. Ribeiro and J.M.C. Silva
+  venue: Iberian Conference on Information Systems and Technologies (CISTI 2024)
+  pdf: "2024-CISTI.pdf"
+  doi: "10.1007/978-3-032-12876-8_12"
+
+- year: 2024
+  type: preprint
+  topics: [ids]
+  title: "APSEA: An Awareness and Prevention Expert System against Social Engineering Attacks in Public Organizations"
+  authors: W.R. Cardoso, A.R.L. Ribeiro, J.M.C. Silva
+  venue: Research Square (preprint), 2024
+  pdf: "2024-ResearchSquare.pdf"
+
+- year: 2023
+  type: conference
+  topics: [ids]
+  title: "CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware’s I/O Behavior"
+  authors: T. Esteves, B. Pereira, R. Oliveira, J.M.C. Silva, J. Paulo
+  venue: "42nd International Symposium on Reliable Distributed Systems (SRDS 2023), Marrakesh"
+  pdf: "2023_SRDS.pdf"
+  doi: "10.1109/SRDS60354.2023.00015"
+  code: https://github.com/dsrhaslab/criba
+
+- year: 2023
+  type: workshop
+  topics: [energy]
+  title: "Flexcomm Simulator: Exploring Energy Flexibility in Software Defined Networks with ns-3"
+  authors: R. Monteiro and J.M.C. Silva
+  venue: Workshop on ns-3 (WNS3 2023), Washington, D.C.
+  pdf: "2023_WNS3.pdf"
+  doi: "10.1145/3592149.3592160"
+  open_access: true
+
+- year: 2023
+  type: conference
+  topics: [meas]
+  title: "AGE: Automatic Performance Evaluation of API Gateways"
+  authors: P. Moreira, A. Ribeiro, J.M.C. Silva
+  venue: "28th IEEE Symposium on Computers and Communications (ISCC 2023), Tunis"
+  pdf: "2023-ISCC.pdf"
+  doi: "10.1109/ISCC58397.2023.10218286"
+  open_access: true
+
+- year: 2023
+  type: conference
+  topics: [meas]
+  title: Impact of traffic sampling on LRD estimation
+  authors: J. Mendes, S. Lima, P. Carvalho, J.M.C. Silva
+  venue: "11th World Conference on Information Systems and Technologies (WorldCIST 2023), Pisa"
+  pdf: "2023_WorldCIST.pdf"
+  doi: "10.1007/978-3-031-45642-8_3"
+
+- year: 2023
+  type: journal
+  topics: [ids]
+  title: An Expert System as an Awareness Tool to Prevent Social Engineering Attacks in Public Organizations
+  authors: W.R. Cardoso, J.M.C. Silva, A. Ribeiro
+  venue: International Journal on Cybernetics & Informatics (IJCI), vol. 12, no. 5, 2023
+  pdf: "2023 IJCI.pdf"
+  doi: "10.5121/ijci.2023.120506"
+  open_access: true
+
+- year: 2022
+  type: conference
+  topics: [ids]
+  title: "Securing MPTCP Connections: A Solution for Distributed NIDS Environments"
+  authors: J.P. Meira, R.P.C. Monteiro, J.M.C. Silva
+  venue: IEEE 47th Conference on Local Computer Networks (LCN 2022), Edmonton
+  pdf: "2022_LCN.pdf"
+  doi: "10.1109/LCN53696.2022.9843271"
+  code: https://github.com/MPTCP-Lab/mini_httpd_mptcp
+
+- year: 2021
+  type: conference
+  topics: [id, pub]
+  title: Towards a bottom-up approach to inclusive digital identity systems
+  authors: J.M.C. Silva, V. Fonte, A. Sousa
+  venue: "14th International Conference on Theory and Practice of Electronic Governance (ICEGOV 2021), Athens"
+  pdf: "2021_ICEGOV.pdf"
+  doi: "10.1145/3494193.3494317"
+  open_access: true
+
+- year: 2021
+  type: conference
+  topics: [ids, meas]
+  title: An outlook on using packet sampling in flow-based C2 TLS malware traffic detection
+  authors: C. Novo, J.M.C. Silva, R. Morla
+  venue: "12th International Conference on Network of the Future (NoF 2021), Coimbra"
+  pdf: "2021 _NoF.pdf"
+  doi: "10.1109/NoF52522.2021.9609889"
+
+- year: 2021
+  type: conference
+  topics: [ids]
+  title: Balancing the Detection of Malicious Traffic in SDN Context
+  authors: B.S. Machado, J.M.C. Silva, S.R. Lima, P. Carvalho
+  venue: "12th International Conference on Ubiquitous and Future Networks (ICUFN 2021), Jeju Island"
+  pdf: "2021_ICUFN.pdf"
+  doi: "10.1109/ICUFN49451.2021.9528577"
+
+- year: 2020
+  type: journal
+  topics: [energy]
+  rank: Q2
+  title: "e-LiteSense: Self-adaptive energy-aware data sensing in WSN environments"
+  authors: J.M.C. Silva, K.A. Bispo, P. Carvalho, S. Rito Lima
+  venue: International Journal of Communication Systems, vol. 33, no. 10, e4153, 2020
+  pdf: "2019_IJCS_published.pdf"
+  doi: "10.1002/dac.4153"
+  open_access: true
+
+- year: 2020
+  type: journal
+  topics: [meas]
+  rank: Q2
+  title: "Towards a holistic semantic support for context-aware network monitoring: An ontology-based approach"
+  authors: P. Carvalho, S. Rito Lima, L. Álvarez Sabucedo, J.M. Santos-Gago, J.M.C. Silva
+  venue: Computing, Springer, vol. 102, no. 12, pp. 2565–2585, 2020
+  pdf: "2020 Computing.pdf"
+  doi: "10.1007/s00607-020-00840-7"
+  open_access: true
+
+- year: 2020
+  type: conference
+  topics: [energy]
+  title: "EAGP: An Energy-Aware Gossip Protocol for Wireless Sensor Networks"
+  authors: B.C. Ferreira, V. Fonte, J.M.C. Silva
+  venue: "28th International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2020), Hvar"
+  pdf: "2020 Softcom.pdf"
+  doi: "10.23919/SoftCOM50211.2020.9238155"
+  open_access: true
+
+- year: 2020
+  type: conference
+  topics: [ids, meas]
+  title: "Detection of Anonymised Traffic: Tor as Case Study"
+  authors: B. Dantas, P. Carvalho, S.R. Lima, J.M.C. Silva
+  venue: "20th International Conference on Next Generation Wired/Wireless Advanced Networks and Systems (NEW2AN 2020), St. Petersburg"
+  pdf: "2020 NEW2AN.pdf"
+  doi: "10.1007/978-3-030-65729-1_9"
+  open_access: true
+
+- year: 2019
+  type: conference
+  topics: [meas]
+  title: An ontology-based recommendation system for context-aware network monitoring
+  authors: R.F. Silva, P. Carvalho, S. Rito Lima, L. Álvarez Sabucedo, J.M. Santos Gago, J.M.C. Silva
+  venue: New Knowledge in Information Systems and Technologies, Springer AISC (WorldCIST 2019)
+  pdf: "2019_WorldCist.pdf"
+  doi: "10.1007/978-3-030-16184-2_36"
+  open_access: true
+
+- year: 2019
+  type: conference
+  topics: [pub]
+  title: "Data security and trustworthiness in online public services: An assessment of Portuguese institutions"
+  authors: J.M.C. Silva and V. Fonte
+  venue: "12th International Conference on Theory and Practice of Electronic Governance (ICEGOV 2019), Melbourne"
+  pdf: "2019_ICEGOV.pdf"
+  doi: "10.1145/3326365.3326411"
+  open_access: true
+
+- year: 2019
+  type: conference
+  topics: [pub]
+  title: Privacy and data protection concerns regarding the use of blockchains in smart cities
+  authors: L.F.M. Ramos and J.M.C. Silva
+  venue: "12th International Conference on Theory and Practice of Electronic Governance (ICEGOV 2019), Melbourne"
+  pdf: "2019_ICEGOV_2.pdf"
+  doi: "10.1145/3326365.3326410"
+  open_access: true
+
+- year: 2018
+  type: conference
+  topics: [meas]
+  title: Deploying time-based sampling techniques in software-defined networking
+  authors: D.R. Teixeira, J.M.C. Silva, S.R. Lima
+  venue: "26th International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2018), Split"
+  pdf: "2018_Softcom.pdf"
+  doi: "10.23919/SOFTCOM.2018.8555763"
+  open_access: true
+
+- year: 2018
+  type: conference
+  topics: [pub]
+  title: Qualification offer in EGOV competencies in PALOP-TL
+  authors: J.M.C. Silva, L.F.M. Ramos, V. Fonte
+  venue: "11th International Conference on Theory and Practice of Electronic Governance (ICEGOV 2018), Galway"
+  pdf: "2018_ICEGOV.pdf"
+  doi: "10.1145/3209415.3209514"
+  open_access: true
+
+- year: 2018
+  type: conference
+  topics: [energy]
+  title: Flexible WSN data gathering through energy-aware adaptive sensing
+  authors: J.M.C. Silva, K.A. Bispo, P. Carvalho, S.R. Lima
+  venue: International Conference on Smart Communications in Network Technologies (SaCoNeT 2018), El Oued
+  pdf: "2018_SaCoNet.pdf"
+  doi: "10.1109/SaCoNeT.2018.8585614"
+
+- year: 2017
+  type: journal
+  topics: [meas]
+  rank: Q2
+  title: "Inside packet sampling techniques: exploring modularity to enhance network measurements"
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: International Journal of Communication Systems, vol. 30, no. 6, e3135, 2017
+  pdf: "2016_IJCS.pdf"
+  doi: "10.1002/dac.3135"
+  open_access: true
+
+- year: 2017
+  type: journal
+  topics: [meas]
+  title: "A modular traffic sampling architecture: bringing versatility and efficiency to massive traffic analysis"
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: Journal of Network and Systems Management, Springer, vol. 25, no. 3, pp. 643–668, 2017
+  pdf: "2017_JONS.pdf"
+  doi: "10.1007/s10922-017-9404-5"
+
+- year: 2017
+  type: conference
+  topics: [energy]
+  title: "LiteSense: An adaptive sensing scheme for WSNs"
+  authors: J.M.C. Silva, K.A. Bispo, P. Carvalho, S.R. Lima
+  venue: "22nd IEEE Symposium on Computers and Communications (ISCC 2017), Crete"
+  pdf: "2017_ISCC.pdf"
+  doi: "10.1109/ISCC.2017.8024689"
+  open_access: true
+
+- year: 2017
+  type: conference
+  topics: [meas]
+  title: Exploring SDN to deploy flexible sampling-based network monitoring
+  authors: C.P. da Silva, S.R. Lima, J.M.C. Silva
+  venue: Internet of Things, Smart Spaces, and Next Generation Networks and Systems (NEW2AN 2017), Springer LNCS 10531
+  pdf: "2017_NEW2AN.pdf"
+  doi: "10.1007/978-3-319-67380-6_10"
+  open_access: true
+
+- year: 2017
+  type: conference
+  topics: [meas]
+  title: Challenges and trends for sampling-based monitoring in SDN
+  authors: C.P. da Silva, S.R. Lima, J.M.C. Silva
+  venue: NEW2AN 2017
+  doi: "10.1109/NAN.2017.9287761"
+
+- year: 2016
+  type: conference
+  topics: [energy]
+  title: Lightweight Multivariate Sensing in WSNs
+  authors: J.M.C. Silva, P. Carvalho, K.A. Bispo, S.R. Lima
+  venue: "10th International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI 2016), Springer LNCS 10070"
+  pdf: "2016_UCAmI.pdf"
+  doi: "10.1007/978-3-319-48799-1_24"
+  open_access: true
+
+- year: 2015
+  type: conference
+  topics: [meas]
+  title: "Analysing traffic flows through sampling: A comparative study"
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: "20th IEEE Symposium on Computers and Communications (ISCC 2015), Larnaca"
+  pdf: "2015_ISCC.pdf"
+  doi: "10.1109/ISCC.2015.7405538"
+  open_access: true
+
+- year: 2015
+  type: conference
+  topics: [meas]
+  title: A modular sampling framework for flexible traffic analysis
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: "23rd International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2015), Split"
+  pdf: "2015_SoftCom.pdf"
+  doi: "10.1109/SOFTCOM.2015.7314061"
+  open_access: true
+
+- year: 2015
+  type: conference
+  topics: [meas]
+  title: Classificação multinível de tráfego de rede com base em amostragem
+  authors: J. Cunha, R. Silva, J.M.C. Silva, S.R. Lima
+  venue: "16ª Conferência sobre Redes de Computadores (CRC 2015), Évora"
+  pdf: "2015_CRC.pdf"
+  url: http://crc2015.di.uevora.pt/actas-crc2015.pdf
+
+- year: 2014
+  type: conference
+  topics: [meas]
+  award: Best Local Student Paper Award
+  title: Computational weight of network traffic sampling techniques
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: "19th IEEE Symposium on Computers and Communications (ISCC 2014), Madeira"
+  pdf: "2014_ISCC.pdf"
+  doi: "10.1109/ISCC.2014.6912467"
+  open_access: true
+
+- year: 2014
+  type: conference
+  topics: [meas]
+  title: A modular architecture for deploying self-adaptive traffic sampling
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: "8th IFIP International Conference on Autonomous Infrastructure, Management and Security (AIMS 2014), Brno — Springer LNCS 8508"
+  pdf: "2014_AIMS.pdf"
+  doi: "10.1007/978-3-662-43862-6_21"
+  open_access: true
+
+- year: 2013
+  type: journal
+  topics: [meas]
+  rank: Q1
+  title: A multiadaptive sampling technique for cost-effective network measurements
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: Computer Networks, Elsevier, vol. 57, no. 17, pp. 3357–3369, 2013
+  pdf: "2013_Journal-COMNET.pdf"
+  doi: "10.1016/j.comnet.2013.07.023"
+  open_access: true
+
+- year: 2013
+  type: workshop
+  topics: [meas]
+  award: Best paper candidate
+  title: Enhancing traffic sampling scope and efficiency
+  authors: J.M.C. Silva, P. Carvalho, S.R. Lima
+  venue: "32nd IEEE International Conference on Computer Communications (INFOCOM 2013) — Workshops, Turin"
+  pdf: "2013_INFOCOM.pdf"
+  doi: "10.1109/INFCOMW.2013.6562848"
+  open_access: true
+
+- year: 2012
+  type: conference
+  topics: [meas]
+  title: Optimizing network measurements through self-adaptive sampling
+  authors: J.M.C. Silva and S.R. Lima
+  venue: IEEE 14th International Conference on High Performance Computing and Communication (HPCC 2012), Liverpool
+  pdf: "2012_HPCC.pdf"
+  doi: "10.1109/HPCC.2012.112"
+
+- year: 2012
+  type: conference
+  topics: [meas]
+  title: Multiadaptive sampling for lightweight network measurements
+  authors: J.M.C. Silva and S.R. Lima
+  venue: "21st International Conference on Computer Communications and Networks (ICCCN 2012), Munich"
+  pdf: "2012_ICCCN.PDF"
+  doi: "10.1109/ICCCN.2012.6289265"
+
+- year: 2012
+  type: workshop
+  topics: [meas]
+  title: Improving network measurement efficiency through multiadaptive sampling
+  authors: J.M.C. Silva and S.R. Lima
+  venue: "4th International Workshop on Traffic Monitoring and Analysis (TMA 2012), Springer LNCS 7189"
+  pdf: "2012_TMA.pdf"
+  doi: "10.1007/978-3-642-28534-9_18"
+
+- year: 2011
+  type: conference
+  topics: [meas]
+  title: Amostragem Multi-adaptativa de Tráfego de Rede
+  authors: J.M.C. Silva, S.R. Lima, R.J.P.B. Salgueiro
+  venue: "11ª Conferência sobre Redes de Computadores (CRC 2011), Coimbra"
+  url: http://hdl.handle.net/1822/15273
+
+- year: 2009
+  type: conference
+  topics: [meas]
+  title: MedicQoS — Uma Ferramenta para Análise de QoS em Telemedicina
+  authors: D.M. de Oliveira, R.S. Matos Júnior, J.M.C. Silva, E.M. Salgueiro
+  venue: IV Congresso da Academia Trinacional de Ciências, Foz do Iguaçu
+
+- year: 2008
+  type: conference
+  topics: [meas]
+  title: Uma Análise das Características do Tráfego de Redes Wireless padrão IEEE 802.11g
+  authors: J.M.C. Silva, R.S. Matos Júnior, R.J.P.B. Salgueiro
+  venue: VIII Escola Regional de Computação Bahia-Alagoas-Sergipe (ERBASE 2008), Salvador
+
+- year: 2008
+  type: conference
+  topics: [meas]
+  title: Utilização de Métodos de Clustering na Caracterização de Tráfego de Vídeo VBR
+  authors: R.S. Matos Júnior, J.M.C. Silva, R.J.P.B. Salgueiro
+  venue: VIII Escola Regional de Computação Bahia-Alagoas-Sergipe (ERBASE 2008), Salvador
+
+- year: 2007
+  type: conference
+  topics: [meas]
+  title: Uma Análise das Propriedades de Fluxo de Vídeo Codificado
+  authors: R.S. Matos Júnior, J.M.C. Silva, R.J.P.B. Salgueiro
+  venue: VII Escola Regional de Computação Bahia-Alagoas-Sergipe (ERBASE 2007), Vitória da Conquista
+
+- year: 2026
+  type: report
+  topics: [pub]
+  bibtex_key: un2026egov
+  bibtex_author: "{United Nations Department of Economic and Social Affairs}"
+  title: UN E-Government Survey 2026 — E-Government Development Index (EGDI)
+  authors: UN DESA — cybersecurity dimension led by J.M.C. Silva
+  venue: United Nations Department of Economic and Social Affairs. First edition with a dedicated cybersecurity assessment of national portals in all 193 Member States
+  url: https://ekap.desa.un.org/Reports/Detail/5
+
+- year: 2026
+  type: report
+  topics: [pub]
+  status: In press
+  bibtex_key: unuegov2026hospi
+  bibtex_author: "{United Nations University (UNU-EGOV)}"
+  title: "Health Online Service Provision Index (HOSPI): A Mirror of Digital Maturity in Healthcare"
+  authors: UNU-EGOV — cybersecurity dimension led by J.M.C. Silva
+  venue: United Nations University
+  url: https://collections.unu.edu/collection/UNU:3057
+
+- year: 2026
+  type: report
+  topics: [pub]
+  title: Método de Avaliação da Presença na Internet das Câmaras Municipais Portuguesas, versão 8.0
+  authors: D. Soares, L. Amaral, M. Lameiras, J. Carvalho, L.M. Ferreira, J.M.C. Silva
+  venue: GÁVEA – Observatório da Sociedade da Informação, Universidade do Minho. ISBN 978-989-53703-5-1
+  url: https://gaveadsi.wixsite.com/gavea/publicacoes/f563cf4c-d2bc-4150-a572-e9ba77e93aad
+
+- year: 2026
+  type: report
+  topics: [pub]
+  bibtex_key: gavea2026ipic
+  bibtex_author: "{GÁVEA} and {UNU-EGOV}"
+  title: Índice de Presença na Internet das Câmaras Municipais Portuguesas (IPIC)
+  authors: GÁVEA and UNU-EGOV — cybersecurity assessment led by J.M.C. Silva
+  venue: GÁVEA – Observatório da Sociedade da Informação, Universidade do Minho and United Nations University
+  url: https://gaveadsi.wixsite.com/gavea/publicacoes/e12a9cbd-e08c-4e8f-a475-07155b6793e6
+
+- year: 2022
+  type: report
+  topics: [ids]
+  bibtex_key: silva2022comunidade
+  bibtex_author: J.M.C. Silva
+  title: Estudo Sobre a Comunidade de Competências em Cibersegurança
+  authors: J.M.C. Silva (coord.)
+  venue: Centro Nacional de Cibersegurança — Observatório de Cibersegurança
+  pdf: "2023 CNCS.pdf"
+  url: https://www.cncs.gov.pt/docs/comcompciber-obcibercncs.pdf
+
+- year: 2020
+  type: report
+  topics: [pub]
+  bibtex_key: u4ssc2020blockchain
+  bibtex_author: "{United for Smart Sustainable Cities (U4SSC)}"
+  title: Blockchain for Smart Sustainable Cities
+  authors: ITU U4SSC — Chapter 3 edited by J.M.C. Silva
+  venue: United for Smart Sustainable Cities (U4SSC), ITU. ISBN 978-92-61-32121-5
+  pdf: "2020-U4SSC_blockchain for smart sustainable cities.pdf"
+  url: https://u4ssc.itu.int

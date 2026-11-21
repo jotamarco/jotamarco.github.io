@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "João Marco"
-description              : &description "personal description"
-url                      : https://jotamarco.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "João Marco Silva — Assistant Professor at the University of Minho. Information security, intrusion detection and trusted digital identity."
+url                      : https://jotamarco.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : #"https://jotamarco.github.io/"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -123,6 +123,8 @@ include:
   - _pages
   - files
 exclude:
+  - HOW-TO-UPDATE.md
+  - scripts
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

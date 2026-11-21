@@ -1,45 +1,13 @@
 ---
 permalink: /
 title: "About me"
-#excerpt: "About me"
-author_profile: true
-redirect_from: 
+layout: modern
+view: home
+redirect_from:
   - /about/
   - /about.html
 ---
+{: .lead}
+I am an Assistant Professor at the Department of Informatics of the University of Minho, an Integrated Researcher at INESC TEC (HASLab), and an Adjunct Assistant Professor at the United Nations University (UNU-EGOV). My work centres on information security, with a focus on intrusion detection and trusted digital identity systems.
 
-<div style='text-align: justify;'>
-  I am an assistant professor at the Department of Informatics in the School of Engineering at the University of Minho. My primary responsibility is to teach courses on information security. I am also a senior researcher at INESC TEC, where my research focuses on network security, energy-efficient communications, and non-authoritative identification systems. Additionally, I collaborate with the Digital Transformation, Innovation, and Technologies research line as an Adjunct Professor at the United Nations University - Operating Unit on Policy-Driven Electronic Governance. 
-</div>
-
-## Current positions
-- Assistant Professor at University of Minho. ([See more](https://www.di.uminho.pt/~jno/sitedi/nm_6687.html))
-- Senior Researcher at INESC TEC - Institute for Systems and Computer Engineering, Technology and Science. ([See more](https://www.inesctec.pt/en/people/joao-marco))
-- Adjunct Professor at UNU-EGOV - United Nations University - Operating Unit on Policy-Driven Electronic Governance. ([See more](https://unu.edu/egov/about/expert/joao-marco-silva))
-
-
-
-## Education
-- PhD in Informatics - *University of Minho, Portugal*
-- MSc in Networks and Communication Services - *University of Minho, Portugal*
-- BSc in Computer Science - *University Federal of Sergipe, Brazil*
-
-
-## Research interests
-- Network Security
-- Energy-Efficient Communications
-- Non-authoritative Identification Systems
-
-
-![](/images/news64.png)
-
-- New paper entitled _It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection_ has been published in the IEEE European Symposium on Security and Privacy Workshops (EuroS&PW 2026). <a href="/Papers/2026-WORMA.pdf" target="_blank">Available here</a>
-
-- New paper entitled _The Path to an Inclusive Identity: A Non-Authoritative Approach_ has been publishe in the IEEE ACCESS. [Open Access](https://ieeexplore.ieee.org/abstract/document/11618512)
-
-- New report entitled _Índice de Presença na Internet das Câmaras Municipais Portuguesas (IPIC)_ has been published by the UNU-EGOV and Gávea. [Open Access](https://gaveadsi.wixsite.com/gavea/publicacoes/e12a9cbd-e08c-4e8f-a475-07155b6793e6)
-
-- The new paper entitled _Assessing the information security posture of online public services worldwide: Technical insights, trends, and policy implications_ has been published in the Government Information Quarterly. [Open Access](https://www.sciencedirect.com/science/article/pii/S0740624X25000255)
-
-
-
+I lead the [DISSECT](https://dissect-project.org){:target="_blank"} team, which assesses and strengthens the security of public digital infrastructures, and the Trusted ID group, which works on non-authoritative digital identity and privacy-preserving credential verification. With UNU-EGOV, I am responsible for the cybersecurity dimension of the UN E-Government Survey, the HOSPI index for digital health services, and the Portuguese IPIC index. I am also Deputy Director of the Bachelor’s and Master’s programmes in Informatics Engineering.

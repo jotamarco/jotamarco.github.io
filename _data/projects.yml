@@ -1,0 +1,173 @@
+# =====================================================================
+#  PROJECTS  — shown on /projetos/
+# =====================================================================
+#  ongoing:   shown as cards
+#  previous:  shown as a collapsible list (newest first)
+#  When a project ends, move its block from "ongoing" to the top of "previous".
+#
+#  - acronym: NAME
+#    years: 2027–2030
+#    name: Full project title
+#    role: PI               # PI | Co-PI | WP leader | Researcher | …
+#    funding: Funding agency / programme
+#    summary: One or two sentences about your contribution.
+#    reference: optional grant reference
+#    image: /images/logo.png        # optional
+#    website:                       # optional
+#      label: project.eu
+#      url: https://project.eu
+
+ongoing:
+  - acronym: MOBOT2.0
+    years: 2026–2029
+    name: Intelligent mobile manipulator with intuitive programming and agnostic control
+    role: WP leader
+    funding: CCDR-N — Norte 2030 (PITD)
+    summary: "Leading the cybersecurity work package: lightweight vulnerability detection, real-time security monitoring and protection of robotic components operating over 5G."
+  - acronym: RESCUEWARE
+    years: 2026–2029
+    name: Intelligent, self-configuring cybersecurity and data recovery for resilience against ransomware
+    role: WP leader
+    funding: NORTE2030-FEDER
+    summary: Leading the design of lightweight ransomware detection for medical systems, to be piloted with the Unidade de Saúde Local do Alto Minho (ULSAM).
+  - acronym: INOCULUM
+    years: 2026–2029
+    name: Boosting the immunity of storage systems against ransomware
+    role: Researcher
+    funding: NORTE2030-FEDER
+    summary: Low-overhead mechanisms for detecting ransomware attacks on storage systems.
+  - acronym: BRINGTRUST
+    years: 2025–2028
+    name: Strengthening CI/CD pipeline cybersecurity and safeguarding intellectual property
+    role: WP leader
+    funding: COMPETE2030-FEDER
+    summary: "Leading the reputation-systems work package: a trust mechanism for third-party GitHub Actions combining static and dynamic analysis, building on IDINA’s reputation models."
+  - acronym: TESTBED5G
+    years: 2025–2026
+    name: Mobile robotics and cybersecurity pilot in industrial environments over 5G
+    role: Co-PI
+    funding: NOS Technology
+    summary: Security audit of two autonomous mobile robot models connected over 5G and their cloud-hosted controllers, across the full communication stack.
+  - acronym: KSAID
+    years: 2025–2027
+    name: Raising the level of digital trust and identity services usage, and international cooperation
+    role: Expert
+    funding: Digital Government Authority, Saudi Arabia (via UNU-EGOV)
+    summary: Digital identity expert analysing global models and best practices in digital trust and identity services.
+  - acronym: GOVAI
+    years: 2026–2027
+    name: The AI Driver’s Licence for Government Employees
+    role: Expert
+    funding: Government of Pakistan — MoITT/PDA (via UNU-EGOV)
+    summary: Capacity-building programme for over one million civil servants; I lead the content on secure and responsible use of AI tools.
+
+previous:
+  - acronym: Saúde24h-GB
+    years: 2024–2025
+    name: Linha de Saúde 24h da Guiné-Bissau
+    role: PI
+    funding: VIDA — Voluntariado Internacional (with UNDP, UNICEF and Instituto Camões)
+    summary: Deployment of the first 24-hour telephone medical assistance service in Guinea-Bissau, reusing IDINA technology in a context of unreliable power and connectivity and where over half of the population lacks official documents.
+  - acronym: IDINA
+    years: 2021–2024
+    name: Inclusive Non-Authoritative Digital Identity
+    role: PI
+    funding: IN3+ Innovation Award (first place)
+    summary: A non-authoritative digital identity platform for the over one billion people without a legal identity document. Identities are built incrementally from attestations by trusted local institutions (health centres, NGOs), using reputation systems and data fusion, without relying on state civil registration.
+    image: "/images/idi.png"
+    website:
+      label: idina.network
+      url: https://idina.network/en/home/
+  - acronym: PRR-ATE
+    years: 2023–2025
+    name: Alliance for Energy Transition
+    role: WP leader
+    funding: Plano de Recuperação e Resiliência — Portugal
+    summary: "Led work package 13.1: an IoT security baseline with an advanced checklist of requirements for deploying and operating OT devices."
+    reference: C644914747-00000023
+  - acronym: FLEXCOMM
+    years: 2022–2023
+    name: "Towards Energy-aware Communications: Connecting the power grid and communication infrastructure"
+    role: PI
+    funding: FCT — Fundação para a Ciência e a Tecnologia
+    summary: Interoperability between communication networks and power distribution systems, and software-defined routing that prioritises network sections powered by renewable energy.
+    reference: EXPL/CCI-INF/1543/2021
+  - acronym: STDGNS
+    years: 2021–2022
+    name: Study on the cybersecurity community in Portugal
+    role: PI
+    funding: GNS / CNCS — Centro Nacional de Cibersegurança
+    summary: National study of cybersecurity competencies, published by CNCS as a reference for investment and policy priorities.
+    website:
+      label: CNCS report
+      url: https://www.cncs.gov.pt/docs/comcompciber-obcibercncs.pdf
+  - acronym: Privacy Shield
+    years: 2021–2022
+    name: Data Privacy for Medical Records Interoperable Systems
+    role: External researcher
+    funding: CNPq, Brazil (coord. Universidade Federal de Santa Maria)
+    summary: Hardening and homomorphic encryption so that only data owners can reveal their own medical attributes in interoperable record systems.
+  - acronym: SMARTNET
+    years: 2019–2023
+    name: Smart Networks as a Platform for Sustainable Smart Cities
+    role: Individual grant
+    funding: FCT — Scientific Employment Stimulus
+    summary: Six-year individual contract on reducing the energy impact of communication networks across light-edge, heavy-edge and convergent layers. Led to the FLEXCOMM project.
+  - acronym: IDMobile
+    years: 2019–2021
+    name: Digital Mobile Identification
+    role: General coordinator
+    funding: R&D project commissioned by INCM — Imprensa Nacional-Casa da Moeda
+    summary: "Proofs of concept and functional prototypes of the Portuguese mobile driving licence (ISO/IEC 18013-5): mDL, mDL reader, offline and online retrieval, plus back-office and PKI. Team of one post-doc and seven MSc researchers."
+  - acronym: IDigital
+    years: 2020–2021
+    name: Next-generation Portuguese digital mobile identity
+    role: Researcher
+    funding: R&D project commissioned by INCM
+    summary: National expert group (UMinho, U.Porto, U.Aveiro, IST, INESC TEC, INOV, INESC-ID, INESC) defining requirements and architecture for Portugal’s future mobile identity, aligned with eIDAS and the EU Digital Identity Wallet.
+  - acronym: LightKone
+    years: 2016–2019
+    name: Lightweight Computation for Networks at the Edge
+    role: Researcher
+    funding: European Commission H2020
+    summary: Responsible for the security analysis and threat modelling of the project’s edge computing proofs of concept (WPs 2.1, 2.2, 3.2).
+    reference: "732505"
+    website:
+      label: lightkone.eu
+      url: https://www.lightkone.eu/
+  - acronym: DSGRID
+    years: 2016–2018
+    name: Digital Systems Technology for Next Generation Grid Automation
+    role: Researcher
+    funding: Portugal 2020 (with Efacec, CISTER and EDP)
+    summary: Information security analysis for fully digital electrical substations.
+    reference: POCI-01-0247-FEDER-011122 (subcontract)
+  - acronym: PASP PALOP-TL
+    years: 2016–2018
+    name: Support to Improvement in Quality and Proximity of Public Services of PALOP and East-Timor
+    role: Post-doc researcher
+    funding: European Commission
+    summary: E-government foundations and training of national experts in Portuguese-speaking African countries and East-Timor; responsible for the integrated training actions and the final report.
+    reference: CRIS 2009/21732 (subcontract)
+  - years: 2016–2017
+    name: Network Traffic Measurement Using Sampling Techniques
+    role: External researcher
+    funding: POSGRAP/CINTTEC/UFS, Brazil
+    summary: Used my PhD traffic sampling framework to compare sampling schemes for network monitoring tasks.
+    reference: PIBIT 2016/2017 PVB4239-2016
+  - years: 2014–2015
+    name: Network Traffic Monitoring and Analysis using Adaptive Measurement Techniques
+    role: External researcher
+    funding: POSGRAP/COPES/UFS, Brazil
+    summary: Evaluated my master’s sampling technique for measuring application QoS.
+    reference: PIBIC 2014/2015 PVB2811-2014
+  - years: 2007–2008
+    name: Modeling and Performance Evaluation of Voice and Video Services in IP Networks
+    role: Researcher
+    funding: UFS, PIBIC — CNPq, Brazil
+    summary: QoS modelling of voice and video, including a SysML-to-Petri-net parser used to deploy a VoIP service with queuing theory.
+  - years: 2005–2007
+    name: Traffic Modeling in Computer Networking
+    role: Research initiation grant
+    funding: CNPq, Brazil
+    summary: Hurst parameter estimation (R/S, aggregate variance, wavelets) for Ethernet traffic characterisation.

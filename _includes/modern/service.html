@@ -1,0 +1,84 @@
+{%- comment -%} Service page. Data: _data/service.yml, talks.yml, reviewing.yml, juries.yml {%- endcomment -%}
+{%- assign sv = site.data.service -%}
+{%- assign rv = site.data.reviewing -%}
+{%- assign juries = site.data.juries -%}
+{%- assign none = "" | split: "," -%}
+{%- assign tpc_n = 0 -%}
+{%- for c in rv.tpc %}{% assign a = c.years | default: none %}{% assign b = c.sub_reviewer | default: none %}{% assign tpc_n = tpc_n | plus: a.size | plus: b.size %}{% endfor -%}
+
+<div class="stats">
+  <a href="#s-talks"><b>{{ site.data.talks.size }}</b><span>Invited talks</span></a>
+  <a href="#s-jury"><b>{{ juries.size }}</b><span>Thesis juries</span></a>
+  <a href="#s-tpc"><b>{{ tpc_n }}</b><span>TPC memberships</span></a>
+  <a href="#s-jr"><b>{{ rv.journals.size }}</b><span>Journals reviewed</span></a>
+  <a href="#s-ev"><b>{{ sv.events.size }}</b><span>Events &amp; panels</span></a>
+</div>
+
+<h2 id="s-mgmt">Academic management</h2>
+<ul class="people">
+  {%- for m in sv.management %}
+  <li><span class="y">{{ m.years }}</span><div><span class="nm">{{ m.role | escape }}</span><div class="co">{{ m.institution }}</div></div></li>
+  {%- endfor %}
+</ul>
+
+<h2 id="s-ev">Event organisation, chairing and evaluation panels</h2>
+<ul class="people">
+  {%- for e in sv.events %}
+  <li><span class="y">{{ e.year }}</span><div>{% if e.link %}<a href="{{ e.link }}" target="_blank" rel="noopener">{{ e.title | escape }}</a>{% else %}{{ e.title | escape }}{% endif %}{% if e.place %}<div class="co">{{ e.place }}</div>{% endif %}</div></li>
+  {%- endfor %}
+</ul>
+
+{%- assign scopes = "abroad,national,uminho" | split: "," -%}
+{%- assign scope_labels = "Abroad / international,National,University of Minho" | split: "," %}
+<h2 id="s-talks">Invited talks <span class="count">{{ site.data.talks.size }}</span></h2>
+{%- for sc in scopes %}
+{%- assign tl = site.data.talks | where: "scope", sc %}
+<details class="year"{% if forloop.first %} open{% endif %}><summary>{{ scope_labels[forloop.index0] }} <span class="muted">{{ tl.size }} talks</span></summary><div class="inner">
+  <ul class="people">
+    {%- for t in tl %}
+    <li><span class="y">{{ t.year }}</span><div><span class="badge">{{ t.kind }}</span> <span class="nm">{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">{{ t.title | escape }}</a>{% else %}{{ t.title | escape }}{% endif %}</span><div class="co">{{ t.venue | escape }}</div></div></li>
+    {%- endfor %}
+  </ul>
+</div></details>
+{%- endfor %}
+
+<h2 id="s-tpc">Technical program committees <span class="count">{{ rv.tpc.size }} venues</span></h2>
+<ul class="tpc">
+  {%- for c in rv.tpc %}
+  {%- assign a = c.years | default: none %}{% assign b = c.sub_reviewer | default: none %}{% assign all = a | concat: b | sort | reverse %}
+  <li><div class="c"><b>{{ c.acronym }}</b><span>{{ c.name | escape }}</span></div><div class="ys">{% for y in all %}{% if b contains y %}<span class="sub" title="Sub-reviewer">{{ y }}</span>{% else %}<span>{{ y }}</span>{% endif %}{% endfor %}</div></li>
+  {%- endfor %}
+</ul>
+<p class="legend"><span style="border:1px dashed #9cc9d8;padding:0 .4em;border-radius:3px">year</span> = sub-reviewer</p>
+
+<h2 id="s-jr">Reviewer for international journals <span class="count">{{ rv.journals.size }}</span></h2>
+<div class="scrollx"><table class="tbl"><thead><tr><th>Journal</th><th>Years</th><th>SCImago</th></tr></thead>
+<tbody>
+  {%- for j in rv.journals %}
+  <tr><td>{{ j.name | escape }}</td><td class="yr">{{ j.years }}</td><td class="yr">{{ j.quartile }}</td></tr>
+  {%- endfor %}
+</tbody></table></div>
+
+{%- assign ex = juries | where: "role", "examiner" -%}
+{%- assign pr = juries | where: "role", "president" -%}
+{%- assign exg = ex | group_by: "year" | sort: "name" | reverse -%}
+{%- assign pyears = pr | map: "year" | uniq | sort | join: ", " %}
+<h2 id="s-jury">Juries for academic degrees <span class="count">{{ juries.size }}</span></h2>
+<h3>As examiner <span class="muted small" style="font-weight:400">({{ ex.size }})</span></h3>
+{%- for g in exg %}
+<details class="year"{% if forloop.index <= 2 %} open{% endif %}><summary>{{ g.name }} <span class="muted">{{ g.items.size }} {% if g.items.size > 1 %}juries{% else %}jury{% endif %}</span></summary><div class="inner">
+  <ul class="people">
+    {%- for j in g.items %}
+    <li style="grid-template-columns:3.4em 1fr"><span><span class="badge {{ j.level | downcase }}">{{ j.level }}</span></span><div><span class="th" style="color:var(--dark-gray)">{{ j.title | escape }}</span><div class="co">{{ j.candidate }} · {{ j.programme | escape }}</div></div></li>
+    {%- endfor %}
+  </ul>
+</div></details>
+{%- endfor %}
+<h3>As jury president <span class="muted small" style="font-weight:400">({{ pr.size }}, all at the University of Minho)</span></h3>
+<details class="year"><summary>Show all {{ pr.size }} <span class="muted">{{ pyears }}</span></summary><div class="inner">
+  <ul class="people">
+    {%- for j in pr %}
+    <li><span class="y">{{ j.year }}</span><div><span class="th" style="color:var(--dark-gray)">{{ j.title | escape }}</span><div class="co">{{ j.candidate }} · {{ j.programme | escape }}</div></div></li>
+    {%- endfor %}
+  </ul>
+</div></details>

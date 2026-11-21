@@ -1,0 +1,54 @@
+{%- comment -%} Supervision page. Data: _data/supervision.yml {%- endcomment -%}
+{%- assign s = site.data.supervision -%}
+<div class="stats">
+  <div><b>{{ s.phd.size }}</b><span>PhD ongoing</span></div>
+  <div><b>{{ s.msc_ongoing.size }}</b><span>MSc ongoing</span></div>
+  <div><b>{{ s.msc_concluded.size }}</b><span>MSc concluded</span></div>
+  <div><b>{{ s.grants.size }}</b><span>Research initiation grants</span></div>
+  <div><b>{{ s.researchers.size }}</b><span>Researchers &amp; post-docs</span></div>
+</div>
+
+<h2>PhD students <span class="count">{{ s.phd.size }}</span></h2>
+<div class="cards">
+  {%- for p in s.phd %}
+  <div class="card"><span class="row"><span class="badge phd">PhD</span><span class="small muted">{{ p.since }}</span></span><span class="ttl">{{ p.name }}</span><span class="small" style="font-style:italic">{{ p.topic | escape }}</span><span class="small muted">{{ p.programme }}</span></div>
+  {%- endfor %}
+</div>
+
+<h2>Ongoing MSc dissertations <span class="count">{{ s.msc_ongoing.size }}</span></h2>
+<ul class="people">
+  {%- for m in s.msc_ongoing %}
+  <li><span class="y">{{ m.since }}</span><div><span class="nm">{{ m.name }}</span> — <span class="th">{{ m.title | escape }}</span><div class="co">{{ s.programmes[m.programme] | default: m.programme }}{% if m.role == "Co-advisor" %} · Co-advisor{% endif %}{% if m.co_advisor %} · <i class="fa-solid fa-user-group" style="font-size:.85em"></i> Co-advised with {{ m.co_advisor }}{% endif %}</div></div></li>
+  {%- endfor %}
+</ul>
+
+<h2>Concluded MSc dissertations <span class="count">{{ s.msc_concluded.size }}</span></h2>
+<ul class="people">
+  {%- for m in s.msc_concluded %}
+  <li><span class="y">{{ m.year }}</span><div><span class="nm">{{ m.name }}</span> — <span class="th">{{ m.title | escape }}</span><div class="co">{{ s.programmes[m.programme] | default: m.programme }}{% if m.role == "Co-advisor" %} · Co-advisor{% endif %}{% if m.co_advisor %} · <i class="fa-solid fa-user-group" style="font-size:.85em"></i> Co-advised with {{ m.co_advisor }}{% endif %}</div></div></li>
+  {%- endfor %}
+</ul>
+
+<h2>Concluded BSc monographs <span class="count">{{ s.bsc_concluded.size }}</span></h2>
+<ul class="people">
+  {%- for m in s.bsc_concluded %}
+  <li><span class="y">{{ m.year }}</span><div><span class="nm">{{ m.name }}</span> — <span class="th">{{ m.title | escape }}</span><div class="co">{{ m.programme }}{% if m.co_advisor %} · Co-advised with {{ m.co_advisor }}{% endif %}</div></div></li>
+  {%- endfor %}
+</ul>
+
+<h2>Researchers and post-docs</h2>
+<ul class="people">
+  {%- for r in s.researchers %}
+  <li><span class="y">{{ r.years }}</span><div><span class="nm">{{ r.name }}</span><div class="co">{{ r.description | escape }}</div></div></li>
+  {%- endfor %}
+</ul>
+
+{%- assign g_last = s.grants | last %}{% assign g_first = s.grants | first %}
+<h2>Research initiation grants <span class="count">{{ s.grants.size }}</span></h2>
+<details class="year"><summary>Show all {{ s.grants.size }} grant holders <span class="muted">{{ g_last.years | slice: 0, 4 }}–{{ g_first.years | slice: 0, 4 }}</span></summary><div class="inner">
+  <ul class="people">
+    {%- for g in s.grants %}
+    <li><span class="y">{{ g.years }}</span><div><span class="nm">{{ g.name }}</span><div class="co">{{ g.topic | escape }}</div></div></li>
+    {%- endfor %}
+  </ul>
+</div></details>

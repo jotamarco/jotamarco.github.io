@@ -1,0 +1,50 @@
+# =====================================================================
+#  SERVICE  — management and events, shown on /portfolio/ (Service page)
+# =====================================================================
+#  management:  academic management roles
+#  events:      event organisation, chairing and evaluation panels
+#               (link and place are both optional)
+
+management:
+  - years: 2024–
+    role: Deputy Director, Bachelor and Master in Informatics Engineering
+    institution: University of Minho
+  - years: "2026"
+    role: President of the Electoral Committee
+    institution: Department of Informatics
+  - years: "2024"
+    role: Member of the Electoral Committee
+    institution: Department of Informatics
+  - years: "—"
+    role: Scientific coordinator of the department’s CTF team
+    institution: Department of Informatics
+  - years: 2021–2024
+    role: Member of the Advisory Group for Diversity and Inclusion
+    institution: INESC TEC
+
+events:
+  - year: "2027"
+    title: INForum 2027 — Organizing Committee
+    place: Braga
+  - year: "2026"
+    title: "Track chair — CNSM 2026, Mini-Conference Session 7: Cyber Threat Intelligence and Internet Security"
+    link: https://www.cnsm-conf.org/2026/program.html
+  - year: "2026"
+    title: "Workshop proponent and chair — Secure by Practice: A Hands-On Cybersecurity Guide for Online Public Services (ICEGOV; postponed)"
+    link: https://unu.edu/egov/icegov-series/
+  - year: "2023"
+    title: Expert Group Meeting — Conceptual framework on digital identity for low-income communities and developing countries (UNU-EGOV, INESC TEC, UMinho, NOVA África, NGO VIDA), Guimarães
+  - year: "2023"
+    title: Jornadas de Informática da Universidade do Minho — Organizing Committee (faculty representative)
+  - year: "2021"
+    title: "Track chair — ICEGOV 2021, Track 2: Distributed Ledgers and Blockchain Technologies in Governance"
+  - year: "2021"
+    title: "Workshop proponent and chair — Cybersecurity: Improving Personal Digital Security Posture (ICEGOV 2021)"
+    link: https://www.icegov.org/track/2021-workshop-4/
+  - year: "2021"
+    title: Evaluator — PROCiência 2020 R&D programme, ARDITI (Madeira)
+  - year: "2020"
+    title: Editor of Chapter 3 — ITU U4SSC report “Blockchain for Smart Sustainable Cities”
+    link: https://u4ssc.itu.int
+  - year: "2006"
+    title: VI Escola Regional de Computação Bahia-Sergipe — Organizing Committee
